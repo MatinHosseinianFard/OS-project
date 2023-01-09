@@ -14,8 +14,8 @@ s.connect(ADDR)
 def send_request():
     s.send("client".encode(FORMAT))
     while True:
-        # menu = s.recv(SIZE).decode(FORMAT)
-        # print(menu, end='')
+        menu = s.recv(SIZE).decode(FORMAT)
+        print(menu, end='')
 
         request = input()
         s.send(request.encode(FORMAT))

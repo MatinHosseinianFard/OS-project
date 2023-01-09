@@ -4,9 +4,7 @@ import threading
 from threading import Lock
 
 import multiprocessing
-from multiprocessing import Queue
 from worker import md5_worker
-from time import sleep
 
 IP = "127.0.0.1"
 PORT = 9090
@@ -17,13 +15,13 @@ FORMAT = 'utf-8'
 
 def worker(i):
 
-    globals()["worker%s" % i] = multiprocessing.Process(target=md5_worker, args=(i, globalLock))
+    globals()["worker%s" % i] = multiprocessing.Process(target=md5_worker, args=(i))
     globals()["worker%s" % i].start()
     while True:
         if not globals()["worker%s" % i].is_alive():
             globals()["worker%s" % i].kill()
             globals()["worker%s" % i] = multiprocessing.Process(
-                target=md5_worker, args=(1, globalLock))
+                target=md5_worker, args=(1))
             globals()["worker%s" % i].start()
 
 
@@ -36,7 +34,7 @@ def client_handling(conn, addr):
             "2. Give me the address of the files you want to convert to md5\n" + \
             "3. Disconnect\n" + "\nChoose : "
 
-        # conn.send(menu.encode(FORMAT))
+        conn.send(menu.encode(FORMAT))
 
         request = int(conn.recv(SIZE).decode(FORMAT))
         if request == 1:
@@ -63,22 +61,21 @@ def worker_handling(conn, addr):
     while connected:
             files_name = ""
             files_address_lock.acquire()
-            if len(files_address) != 0:
-                split = 2 if len(files_address) >= 2 else len(files_address)
-                for _ in range(split):
-                    files_name += files_address.pop() + " "
-                files_name = files_name.strip()
-                files_address_lock.release()
-                # sleep(1)
-                conn.send(files_name.encode(FORMAT))
-                try:
-                    message = conn.recv(SIZE).decode(FORMAT)
-                except:
-                    pass
-                print(message)
-            
-            # error = conn.recv(SIZE).decode(FORMAT)
-            
+            while True:
+                if len(files_address) != 0:
+                    split = 2 if len(files_address) >= 2 else len(files_address)
+                    for _ in range(split):
+                        files_name += files_address.pop() + " "
+                    files_name = files_name.strip()
+                    files_address_lock.release()
+                    # sleep(1)
+                    conn.send(files_name.encode(FORMAT))
+                    try:
+                        message = conn.recv(SIZE).decode(FORMAT)
+                    except:
+                        pass
+                    print(message)
+                    break            
             
 def get_files_name(basepath):
     files_name = ""
@@ -86,7 +83,7 @@ def get_files_name(basepath):
     for entry in os.listdir(basepath):
         if os.path.isfile(os.path.join(basepath, entry)):
             files_name += f"\n{entry}"
-
+    
     return files_name
 
 
@@ -108,15 +105,8 @@ def start():
 
 
 if __name__ == "__main__":
-    files_address = [f'{i}.json' for i in range(1, 10)]
-    print(files_address)
-    files_address[-1] = '30.json'
-    print(files_address)
+    # files_address = [f'{i}.json' for i in range(1, 10)]
+    files_address = []
     files_address_lock = Lock()
-    globalLock = multiprocessing.Lock()
-    workers = [threading.Thread(target=worker, args=(i, )).start() for i in range(1, 2)]
-    # t1 = threading.Thread(target=worker, args=(1, ))
-    # t2 = threading.Thread(target=worker_2)
-    # t1.start()
-    # t2.start()
+    workers = [threading.Thread(target=worker, args=(i, )).start() for i in range(1, 6)]
     start()
