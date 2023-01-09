@@ -15,13 +15,13 @@ FORMAT = 'utf-8'
 
 def worker(i):
 
-    globals()["worker%s" % i] = multiprocessing.Process(target=md5_worker, args=(i))
+    globals()["worker%s" % i] = multiprocessing.Process(target=md5_worker, args=(i, ))
     globals()["worker%s" % i].start()
     while True:
         if not globals()["worker%s" % i].is_alive():
             globals()["worker%s" % i].kill()
             globals()["worker%s" % i] = multiprocessing.Process(
-                target=md5_worker, args=(1))
+                target=md5_worker, args=(1, ))
             globals()["worker%s" % i].start()
 
 
