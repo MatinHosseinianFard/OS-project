@@ -126,15 +126,51 @@
 
 #     # s.close()
 
-from queue import Queue
-
-while True:
-    p = input()
-    try:
-        p = int(p)
-        print(p)
-    except:
-        print("not aloowed")
+# import re
+# f = open("./log.txt", "r")
+# text = str(f.read())
+# name = '1.json'
+# regex = re.findall(r'%s was converted to %s.md5 by worker \d' % (name, name) , text)
+# print(regex)
+import multiprocessing
+import os
+import psutil
+import time
+ 
+def print_numbers():
+    ctr = 0
+    for x in range(100):
+        ctr +=1
+        print(ctr)
+        time.sleep(0.5)
+ 
+pid=os.getpid()
+ 
+mp = multiprocessing.Process(target=print_numbers)
+mp.start()
+p= psutil.Process(mp.pid)
+print('pid =', pid, p)
+print("status", mp.is_alive())
+time.sleep(5)
+print("suspend")
+p.suspend()
+ 
+time.sleep(5)
+print("resume it", mp.is_alive())
+p.resume()
+time.sleep(5)
+if mp.is_alive():
+     print("terminate", mp.is_alive)
+     mp.terminate()
+     mp.join()
+else:
+    print("terminated node")
+print("status", mp.is_alive()) 
+# f = open("./log.txt", "r")
+# text = str(f.read())
+# regex = re.search(r'1.json', text)
+# print(regex)
+# print(text)
 # q = PriorityQueue()
 # q.put((5, "1"))
 # q.put((2, "3"))

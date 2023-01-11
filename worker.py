@@ -9,6 +9,7 @@ class style():
     RED = '\033[31m'
     GREEN = '\033[32m'
     RESET = '\033[0m'
+    YELLOW = '\033[33m'
 
 def md5_worker(id):
     IP = "127.0.0.1"
@@ -16,6 +17,7 @@ def md5_worker(id):
     ADDR = (IP, PORT)
     SIZE = 1024
     FORMAT = 'utf-8'
+    MISTAKE_RATE = 0.8
     
     s = socket(AF_INET, SOCK_STREAM)
     s.connect(ADDR)
@@ -24,28 +26,36 @@ def md5_worker(id):
     while True:
 
         files_name = s.recv(SIZE).decode(FORMAT)
-        message = f"I am worker {id} for converting : {files_name}\n"
-        print(message)
+        files_name.strip()
+        # print(files_name)
+        # message = f"I am worker {id} for converting : {files_name}\n"
+        # print(message)
         for file_name in files_name.split(" "):
+            
             if os.path.isfile(f"./TransactionFiles/{file_name}"):
                 not_md5_file = open(f"./TransactionFiles/{file_name}")
                 not_md5_content = str(json.load(not_md5_file)).encode()
                 not_md5_content = hashlib.md5(not_md5_content).hexdigest()
                 not_md5_file.close()
 
+                log_file_update = open("./worker_log.txt", "a")
+                text = f"{file_name} was converted to {file_name}.md5 by worker {id}\n"
+                log_file_update.write(text)
+                log_file_update.close()
+                
                 md5_file = open(f"./TransactionFiles/{file_name}.md5", "w")
-                if random.random() < 0.5:
+                if random.random() < MISTAKE_RATE:
                     md5_file.write(not_md5_content + " BUG")
                     print(style.RED + f"Mistake in {file_name}" + style.RESET )
                 else:
                     md5_file.write(not_md5_content)
                 md5_file.close()
-                log_file_update = open("./log.txt", "a")
-                text = f"{file_name} {id}\n"
-                log_file_update.write(text)
-                log_file_update.close()
+                # s.send(f"converting {file_name} was successful".encode(FORMAT))
+                message = ""
                 message += style.GREEN + f"converting {file_name} was successful by worker {id}\n" + style.RESET
+                print(message)
             else:
                 message += style.RED + f"{file_name} Does not exist!\n" + style.RESET
-        print(message)
-        # s.send(message.encode(FORMAT))
+                print(message)
+                sleep(2)
+        s.send(message.encode(FORMAT))

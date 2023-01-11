@@ -1,0 +1,32 @@
+Worker 4 made a mistake in creating the content of 8.json.md5 and it is its first mistake
+Worker 3 made a mistake in creating the content of 6.json.md5 and it is its first mistake
+Worker 2 made a mistake in creating the content of 5.json.md5 and it is its first mistake
+Worker 1 made a mistake in creating the content of 7.json.md5 and it is its first mistake
+Worker 5 made a mistake in creating the content of 38.json.md5 and it is its first mistake
+Worker 2 made a mistake in creating the content of 40.json.md5 and it is its second mistake, so its killed
+Worker 1 made a mistake in creating the content of 4.json.md5 and it is its second mistake, so its killed
+Worker 4 made a mistake in creating the content of 39.json.md5 and it is its second mistake, so its killed
+Worker 5 made a mistake in creating the content of 35.json.md5 and it is its second mistake, so its killed
+Worker 5 made a mistake in creating the content of 33.json.md5 and it is its first mistake
+Worker 3 made a mistake in creating the content of 9.json.md5 and it is its second mistake, so its killed
+Worker 5 made a mistake in creating the content of 37.json.md5 and it is its second mistake, so its killed
+Worker 3 made a mistake in creating the content of 36.json.md5 and it is its first mistake
+Worker 2 made a mistake in creating the content of 29.json.md5 and it is its first mistake
+Worker 1 made a mistake in creating the content of 30.json.md5 and it is its first mistake
+Worker 4 made a mistake in creating the content of 3.json.md5 and it is its first mistake
+Worker 4 made a mistake in creating the content of 24.json.md5 and it is its second mistake, so its killed
+Worker 3 made a mistake in creating the content of 28.json.md5 and it is its second mistake, so its killed
+Worker 5 made a mistake in creating the content of 27.json.md5 and it is its first mistake
+Worker 1 made a mistake in creating the content of 26.json.md5 and it is its second mistake, so its killed
+Worker 2 made a mistake in creating the content of 25.json.md5 and it is its second mistake, so its killed
+Worker 5 made a mistake in creating the content of 2.json.md5 and it is its second mistake, so its killed
+Worker 5 made a mistake in creating the content of 22.json.md5 and it is its first mistake
+Worker 4 made a mistake in creating the content of 17.json.md5 and it is its first mistake
+Worker 4 made a mistake in creating the content of 16.json.md5 and it is its second mistake, so its killed
+Worker 4 made a mistake in creating the content of 19.json.md5 and it is its first mistake
+Worker 4 made a mistake in creating the content of 18.json.md5 and it is its second mistake, so its killed
+Worker 2 made a mistake in creating the content of 13.json.md5 and it is its first mistake
+Worker 5 made a mistake in creating the content of 14.json.md5 and it is its second mistake, so its killed
+Worker 3 made a mistake in creating the content of 12.json.md5 and it is its first mistake
+Worker 1 made a mistake in creating the content of 10.json.md5 and it is its first mistake
+Worker 3 made a mistake in creating the content of 1.json.md5 and it is its second mistake, so its killed

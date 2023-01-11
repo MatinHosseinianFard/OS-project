@@ -6,6 +6,8 @@ from queue import Queue
 from time import sleep
 import multiprocessing
 from worker import md5_worker
+import re
+from worker import style
 
 IP = "127.0.0.1"
 PORT = 9090
@@ -13,82 +15,98 @@ ADDR = (IP, PORT)
 SIZE = 1024
 FORMAT = 'utf-8'
 
-def worker(i):
 
+def worker(i):
     globals()["worker%s" % i] = multiprocessing.Process(
         target=md5_worker, args=(i, ))
+    # z = psutil.Process(globals()["worker%s" % i].pid)
+
     globals()["worker%s" % i].start()
     while True:
         if not globals()["worker%s" % i].is_alive():
-            print("!!!!!!!")
+            # print("!!!!!!!")
             
-            globals()["worker%s" % i].kill()
+            # globals()["worker%s" % i].terminate()
             globals()["worker%s" % i] = multiprocessing.Process(
                 target=md5_worker, args=(i, ))
             globals()["worker%s" % i].start()
-            break
+            # break
 
-def workerBlock(job_queue):
-    warnings = [0 for i in range(5)]
-    while True:
-        mistake_file = job_queue.get(block=True)
-        f = open("./log.txt", "r")
-        text = str(f.read()).strip().split()
-        warnings[int(text[text.index(mistake_file) + 1])-1] += 1
-        print(warnings)
-        if warnings[int(text[text.index(mistake_file) + 1])-1] == 2:
-            globals()["worker%s" % int(text[text.index(mistake_file) + 1])].kill()
-            warnings[int(text[text.index(mistake_file) + 1])-1] = 0
-        
-    
-def client_handling(conn, addr):
-    print(addr, " is connected to the server")
+
+def client_handling(conn, files_address):
     connected = True
-
+    warnings = [0 for i in range(5)]
     while connected:
-        # recieve_address_lock.acquire()
         file_name = conn.recv(SIZE).decode(FORMAT).split(" ")
-        conn.send("Recieved".encode(FORMAT))
         print(file_name)
         if file_name[1] == "1":
-        # print(file_name)
+            # worker_lock.acquire()
             files_address.put(file_name[0])
-        # recieve_address_lock.release()
+            # print(list(files_address.queue))
+            conn.send("Recieved".encode(FORMAT))
+            
+        # elif file_name[1] == "3":
+        #     conn.send("OK".encode(FORMAT))
         else:
-            job_queue.put(file_name[0])
+            mistake_lock.acquire()
+            f = open("./worker_log.txt", "r")
+            text = str(f.read())
+            # print(text)
+            worker = re.findall(r'%s was converted to %s.md5 by worker \d' % (
+                file_name[0], file_name[0]), text).pop()
+            f.close()
+            warnings[int(worker[-1])-1] += 1
+            message = f"{worker[-1]} {warnings[int(worker[-1])-1]}"
+            
+            # print("ZZZ")
+            # globals()["psutil%s" % int(worker[-1])].suspend()
+            # print("ZZZ")
+            print(warnings)
+            kill_lock.acquire()
+            if warnings[int(worker[-1])-1] == 2:   
+                if globals()["worker%s" % int(worker[-1])].is_alive():
+                    globals()["worker%s" % int(worker[-1])].kill()
+                    print("worker%s killed!!!" % int(worker[-1]))
+                warnings[int(worker[-1])-1] = 0
+            # else:
+                # print("ZZZ")
+                # globals()["psutil%s" % int(worker[-1])].resume()
+            kill_lock.release()
+            conn.send(message.encode(FORMAT))
+            mistake_lock.release()
     conn.close()
 
 
-def worker_handling(conn, addr, id):
-    # print(addr, " is connected to the server")
+def worker_handling(conn, id, files_address):
     connected = True
     while connected:
+        # while not globals()["worker%s" % id].is_alive():
+        #     pass
         files_name = ""
-        files_address_lock.acquire()
-        while True:
-            if not files_address.empty():
-                split = 2 if files_address.qsize() >= 2 else files_address.qsize()
-                for _ in range(split):
-                    files_name += files_address.get() + " "
-                files_name = files_name.strip()
-                files_address_lock.release()
-                # sleep(1)
-                try:
-                    send_address_lock.acquire()
-                    conn.send(files_name.encode(FORMAT))
-                    send_address_lock.release()
-                except:
-                    send_address_lock.release()
-                    print(f"NOT SUCCESS worker {id} for {files_name}")
-                # message = conn.recv(SIZE).decode(FORMAT)
-                # print(message)
-                # message = message.split(" ")
-                # if message[-4] == "successful":
-                #     f = open("./log.txt")
-                #     text = message[-6] + message[-1]
-                #     f.write(text)
-                #     f.close()
-                break
+        # test_lock.acquire()
+        for _ in range(1):
+            files_name += files_address.get(block=True) + " "
+        # test_lock.release()
+        files_name = files_name.strip()
+        try:
+            
+            send_address_lock.acquire()
+            conn.send(files_name.encode(FORMAT))
+            conn.recv(SIZE).decode(FORMAT)
+            # for _ in files_name.split(" "):
+            #     mmm = conn.recv(SIZE).decode(FORMAT)
+            #     print(mmm.split(" ")[1])
+            send_address_lock.release()
+
+        except:
+            
+            connected = False
+            send_address_lock.release()
+            print(f"NOT SUCCESS worker {id} for {files_name}")
+            print(files_name.split(" "))
+            for item in files_name.split(" "):
+                files_address.put(item)
+                # sleep(0)
 
 
 def get_files_name(basepath):
@@ -107,29 +125,33 @@ def start():
     s.bind(ADDR)
     print("[STARTING] server is listening ....")
     s.listen()
+    files_address = Queue()
     while True:
         conn, addr = s.accept()
         name = conn.recv(SIZE).decode(FORMAT)
         if name[:6] == "worker":
-            print(f"worker {name[-1]} started")
+            print(style.YELLOW + f"worker {name[-1]} started" + style.RESET)
             thread = threading.Thread(
-                target=worker_handling, args=(conn, addr, name[-1]))
+                target=worker_handling, args=(conn, name[-1], files_address))
         if name == "client":
             print(name)
             thread = threading.Thread(
-                target=client_handling, args=(conn, addr))
+                target=client_handling, args=(conn, files_address))
         thread.start()
         print("[ACTIVE CONNECTIONS]", threading.activeCount() - 1)
 
 
 if __name__ == "__main__":
-    # files_address = [f'{i}.json' for i in range(1, 10)]
-    files_address = Queue()
+
     files_address_lock = Lock()
     send_address_lock = Lock()
+    mistake_lock = Lock()
+    kill_lock = Lock() 
     workers = [threading.Thread(target=worker, args=(i, )).start()
                for i in range(1, 6)]
+    
     job_queue = Queue()
-    t1 = threading.Thread(target=workerBlock, args=(job_queue, ))
-    t1.start()
+    test_lock = Lock()
+    worker_lock = Lock()
+    sem = Lock()
     start()

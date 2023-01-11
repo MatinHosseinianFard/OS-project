@@ -27,26 +27,48 @@ files_name = []
 def fileGetter():
     first_files_name = get_files_name("./TransactionFiles").split()
     for file_name in first_files_name:
-        job_queue.put(file_name)
-    # while True:
-    #     files_name = get_files_name("./TransactionFiles").split()
-    #     for file_name in files_name:
-    #         if file_name not in first_files_name:
-    #             job_queue.put(file_name)
+        n_md5.put(file_name)
+        
+def sender():
+    while True:
+        
+        while not mistake_send.empty():
+            print("mistake_send")
+            must_send = mistake_send.get()
+            file_name = must_send.split(" ")[0]
+            s.send(must_send.encode(FORMAT))
+            bad_worker, warning = s.recv(SIZE).decode().split(" ")
+            mistake = ""
+            if warning == "1":
+                mistake = "first mistake"
+            elif warning == "2":
+                mistake = "second mistake, so its killed"
+            f = open("./client_log.txt", "a")
+            log = f"Worker {bad_worker} made a mistake in creating the content of {file_name}.md5 and it is its {mistake}\n"
+            f.write(log)
+            f.close()
+        
+        # while not true_send.empty():
+        #     must_send = true_send.get()
+        #     s.send(must_send.encode(FORMAT))
+        #     print(s.recv(SIZE).decode())
+        
+        if not create_send.empty():
+            print("create_send")
+            must_send = create_send.get(block=False)
+            # sleep(1)
+            s.send(must_send)
+            s.recv(SIZE)
 
 
 def checker(id):
     while True:
-        # sleep(3)
-        
-        file_name = job_queue.get(block=True)
-        
-        globalLock.acquire()
-        files_name = list(job_queue.queue)
-        globalLock.release()
-        # print(file_name)
+        file_name = n_md5.get(block=True)
+
+        # globalLock.acquire()
+        files_name = list(n_md5.queue)
+        # globalLock.release()    
         if file_name[-3:] != "md5":
-            # print(f"I am ckecker {id} and check {file_name}")
 
             not_md5_file = open(f"./TransactionFiles/{file_name}")
             if f"{file_name}.md5" in files_name:
@@ -66,33 +88,30 @@ def checker(id):
                 if not str(check_md5_file_content) == md5_file_content:
                     print(
                         style.RED + f"The md5 content {file_name} is wrong" + style.RESET)
-                    globalLock2.acquire()
-                    s.send(f"{file_name} 0".encode(FORMAT))
-                    s.recv(SIZE).decode()
-                    globalLock2.release()
+                    # globalLock2.acquire()
+                    # s.send(f"{file_name} 0".encode(FORMAT))
+                    mistake_send.put(f"{file_name} 0")
+                    
+                    # globalLock2.release()
                 else:
                     print("True")
+                    # true_send.put(f"{file_name} 3")
                 not_md5_file.close()
-                # else:
-                #     job_queue.put(file_name)
-                #     job_queue.put(f"{file_name}.md5")
+
             else:
-                print(f"I am ckecker {id} for check {file_name}.md5 existent", os.path.isfile(f"./TransactionFiles/{file_name}.md5"))
-                # while os.path.isfile(f"./TransactionFiles/{file_name}.md5"):
-                #     while f"{file_name}.md5" not in list(job_queue.queue):
-                #         pass
-                # print("HI")
+                print(f"I am ckecker {id} for check {file_name}.md5 existent", os.path.isfile(
+                    f"./TransactionFiles/{file_name}.md5"))
+
                 if not os.path.isfile(f"./TransactionFiles/{file_name}.md5"):
-                    globalLock2.acquire()
-                    s.send(f"{file_name} 1".encode(FORMAT))
+                    # globalLock2.acquire()
+                    # s.send(f"{file_name} 1".encode(FORMAT))
                     # print()
-                    s.recv(SIZE).decode()
-                    globalLock2.release()
-                
-                job_queue.put(f"{file_name}.md5")
-                job_queue.put(file_name)
-                
-               
+                    create_send.put(f"{file_name} 1".encode(FORMAT))
+                    # s.recv(SIZE).decode()
+                    # globalLock2.release()
+
+                n_md5.put(f"{file_name}.md5")
+                n_md5.put(file_name)
 
 
 def send_request():
@@ -111,11 +130,13 @@ def get_files_name(basepath):
 
 if __name__ == "__main__":
 
-    # job_queue = Queue()
-    # job_queue_2 = Queue()
-    job_queue = LifoQueue()
-    # print(files_name)
-    # send_request()
+    n_md5 = LifoQueue()
+    md5 = LifoQueue()
+
+    mistake_send = LifoQueue()
+    create_send = LifoQueue()
+    true_send = LifoQueue()
+    
     t1 = threading.Thread(target=send_request)
     t1.start()
     sleep(0.1)
@@ -124,7 +145,7 @@ if __name__ == "__main__":
     t2.start()
     checkers = [threading.Thread(
         target=checker, args=(i,)).start() for i in range(1, 6)]
-    # for i in checkers:
-    #     i.start()
-
-    # s.close()
+    
+    t3 = threading.Thread(target=sender)
+    t3.start()
+    
