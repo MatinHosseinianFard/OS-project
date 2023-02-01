@@ -23,6 +23,7 @@ and saves a file with the address of the same file but with the suffix "md5." Fo
 - To calculate MD5, you can use libraries or code fragments available on the Internet.
 - To test, gradually transfer a large number of files to the server with the help of a number of client processes.
 
+![Screenshot 2023-02-01 170856 (2)](https://user-images.githubusercontent.com/88796613/216058908-5cae15a1-4df0-493b-b13e-206d96366131.png)
 
 # Step 2
 
@@ -43,6 +44,9 @@ If they are not equal, it prints a message indicating that the MD5 value has cha
 - To access the collected addresses and send the request to the server, there should not be a race condition.
 - To test and see the results of this section, the student must automatically change the values of one file
 to the desired value (null or string or number) or randomly from every 3 files produced by the workers.
+
+![Screenshot 2023-02-01 171101 (1)](https://user-images.githubusercontent.com/88796613/216059108-c90c5037-106e-47dc-a738-687fe9b77cb9.png)
+
 
 # Extra
 
