@@ -1,14 +1,18 @@
 # Run
 
 ## server:
-Be sure to install Python on your system to run it
-Open the powershell in the location where the OS-project folder is located and navigate to the following folder with the following command:
+Be sure to install Python on your system
+To run it Open the powershell in the location where the OS-project folder is located and navigate to the following folder with the following command:
 ```
 PS D:......\OP-project\> .\run.bat
 ```
 ## commander:
 Then open another powershell window and run the following command
 ‍‍‍‍‍
+ ``` PS D:......\OP-project\> py.exe .\commander.py ```
+
+
+
 # Project description
 ## Step 1
 The contents of some files of Ghokho servers (Ghorob Khokho) are apparently changed unintentionally.
