@@ -1,0 +1,8 @@
+{
+    "transaction_id": "TR1000000060_80db3ff4-717b-456b-baa8-af9941e62c81",
+    "from": "3978ae97-177d-4507-923f-dace6493c663",
+    "to": "45715ab3-07e3-464f-bd3b-eedda472a0ab",
+    "from_balance": 895897,
+    "to_balance": 1104103,
+    "order_amount": 104103
+}

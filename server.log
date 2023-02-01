@@ -1,0 +1,1533 @@
+16:30:05.029 - [STARTING] server is listening ....
+16:30:12.832 - The request to create 1.json.md5 was received
+16:30:12.832 - The request to create 100.json.md5 was received
+16:30:12.832 - The request to create 101.json.md5 was received
+16:30:12.832 - The request to create 102.json.md5 was received
+16:30:12.834 - The request to create 10.json.md5 was received
+16:30:13.001 - 1.json.md5 report request received
+16:30:13.018 - 102.json.md5 report request received
+16:30:13.019 - 100.json.md5 report request received
+16:30:13.027 - The request to create 142.json.md5 was received
+16:30:13.028 - The request to create 139.json.md5 was received
+16:30:13.028 - The request to create 138.json.md5 was received
+16:30:13.028 - The request to create 134.json.md5 was received
+16:30:13.029 - The request to create 133.json.md5 was received
+16:30:13.127 - 139.json.md5 report request received
+16:30:13.148 - worker 4 killed !!!
+16:30:13.149 - 142.json.md5 report request received
+16:30:13.150 - worker 3 killed !!!
+16:30:13.151 - The request to create 385.json.md5 was received
+16:30:13.151 - NOT SUCCESS worker 3 for .\TransactionFiles\385.json
+16:30:13.151 - The request to create 387.json.md5 was received
+16:30:13.152 - NOT SUCCESS worker 4 for .\TransactionFiles\387.json
+16:30:13.152 - The request to create 383.json.md5 was received
+16:30:13.153 - The request to create 384.json.md5 was received
+16:30:13.153 - The request to create 378.json.md5 was received
+16:30:13.245 - The request to create 585.json.md5 was received
+16:30:13.246 - The request to create 589.json.md5 was received
+16:30:13.246 - The request to create 593.json.md5 was received
+16:30:13.247 - The request to create 592.json.md5 was received
+16:30:13.446 - 589.json.md5 report request received
+16:30:13.460 - 592.json.md5 report request received
+16:30:13.462 - worker 1 killed !!!
+16:30:13.462 - 593.json.md5 report request received
+16:30:13.464 - The request to create 639.json.md5 was received
+16:30:13.465 - The request to create 624.json.md5 was received
+16:30:13.466 - The request to create 626.json.md5 was received
+16:30:13.466 - NOT SUCCESS worker 1 for .\TransactionFiles\626.json
+16:30:13.466 - The request to create 627.json.md5 was received
+16:30:13.467 - The request to create 621.json.md5 was received
+16:30:13.581 - The request to create 817.json.md5 was received
+16:30:13.612 - The request to create 833.json.md5 was received
+16:30:13.613 - 626.json.md5 report request received
+16:30:13.640 - The request to create 855.json.md5 was received
+16:30:13.641 - The request to create 847.json.md5 was received
+16:30:13.641 - The request to create 834.json.md5 was received
+16:30:13.641 - The request to create 837.json.md5 was received
+16:30:13.642 - The request to create 836.json.md5 was received
+16:30:13.739 - 855.json.md5 report request received
+16:30:13.760 - 847.json.md5 report request received
+16:30:13.770 - worker 4 killed !!!
+16:30:13.772 - The request to create 995.json.md5 was received
+16:30:13.773 - The request to create 996.json.md5 was received
+16:30:13.773 - NOT SUCCESS worker 4 for .\TransactionFiles\subfolder\996.json
+16:30:13.773 - The request to create 998.json.md5 was received
+16:30:13.776 - The request to create 997.json.md5 was received
+16:30:13.777 - The request to create 999.json.md5 was received
+16:30:13.778 - 995.json.md5 report request received
+16:30:13.811 - worker 3 killed !!!
+16:30:13.812 - 999.json.md5 report request received
+16:30:13.814 - The request to create 990.json.md5 was received
+16:30:13.815 - NOT SUCCESS worker 3 for .\TransactionFiles\subfolder\990.json
+16:30:13.815 - The request to create 991.json.md5 was received
+16:30:13.817 - The request to create 992.json.md5 was received
+16:30:13.817 - The request to create 993.json.md5 was received
+16:30:13.818 - The request to create 994.json.md5 was received
+16:30:13.832 - The request to create 989.json.md5 was received
+16:30:13.864 - The request to create 988.json.md5 was received
+16:30:13.896 - The request to create 986.json.md5 was received
+16:30:13.896 - The request to create 985.json.md5 was received
+16:30:13.897 - The request to create 987.json.md5 was received
+16:30:13.897 - The request to create 984.json.md5 was received
+16:30:14.125 - The request to create 983.json.md5 was received
+16:30:14.126 - The request to create 982.json.md5 was received
+16:30:14.126 - The request to create 981.json.md5 was received
+16:30:14.127 - The request to create 980.json.md5 was received
+16:30:14.256 - The request to create 979.json.md5 was received
+16:30:14.288 - The request to create 977.json.md5 was received
+16:30:14.289 - The request to create 976.json.md5 was received
+16:30:14.290 - The request to create 978.json.md5 was received
+16:30:14.290 - The request to create 975.json.md5 was received
+16:30:14.409 - 979.json.md5 report request received
+16:30:14.427 - worker 3 killed !!!
+16:30:14.428 - 975.json.md5 report request received
+16:30:14.436 - The request to create 970.json.md5 was received
+16:30:14.436 - NOT SUCCESS worker 3 for .\TransactionFiles\subfolder\970.json
+16:30:14.437 - The request to create 971.json.md5 was received
+16:30:14.437 - The request to create 972.json.md5 was received
+16:30:14.438 - The request to create 974.json.md5 was received
+16:30:14.439 - The request to create 973.json.md5 was received
+16:30:14.553 - The request to create 968.json.md5 was received
+16:30:14.554 - The request to create 969.json.md5 was received
+16:30:14.586 - The request to create 966.json.md5 was received
+16:30:14.587 - The request to create 965.json.md5 was received
+16:30:14.588 - The request to create 967.json.md5 was received
+16:30:14.745 - The request to create 964.json.md5 was received
+16:30:14.746 - The request to create 963.json.md5 was received
+16:30:14.747 - The request to create 962.json.md5 was received
+16:30:14.747 - 966.json.md5 report request received
+16:30:14.769 - worker 4 killed !!!
+16:30:14.770 - 962.json.md5 report request received
+16:30:14.771 - The request to create 957.json.md5 was received
+16:30:14.772 - NOT SUCCESS worker 4 for .\TransactionFiles\subfolder\957.json
+16:30:14.772 - The request to create 958.json.md5 was received
+16:30:14.773 - The request to create 959.json.md5 was received
+16:30:14.773 - The request to create 960.json.md5 was received
+16:30:14.774 - The request to create 961.json.md5 was received
+16:30:14.894 - The request to create 956.json.md5 was received
+16:30:14.895 - 958.json.md5 report request received
+16:30:14.905 - worker 2 killed !!!
+16:30:14.905 - 956.json.md5 report request received
+16:30:14.918 - worker 5 killed !!!
+16:30:14.919 - The request to create 951.json.md5 was received
+16:30:14.919 - NOT SUCCESS worker 2 for .\TransactionFiles\subfolder\951.json
+16:30:14.919 - The request to create 952.json.md5 was received
+16:30:14.920 - The request to create 953.json.md5 was received
+16:30:14.920 - The request to create 955.json.md5 was received
+16:30:14.920 - NOT SUCCESS worker 5 for .\TransactionFiles\subfolder\955.json
+16:30:14.920 - The request to create 954.json.md5 was received
+16:30:14.957 - 951.json.md5 report request received
+16:30:14.967 - worker 1 killed !!!
+16:30:14.969 - The request to create 948.json.md5 was received
+16:30:14.970 - The request to create 947.json.md5 was received
+16:30:14.971 - The request to create 946.json.md5 was received
+16:30:14.971 - NOT SUCCESS worker 1 for .\TransactionFiles\subfolder\946.json
+16:30:14.972 - The request to create 949.json.md5 was received
+16:30:14.972 - The request to create 950.json.md5 was received
+16:30:14.989 - The request to create 945.json.md5 was received
+16:30:14.989 - The request to create 944.json.md5 was received
+16:30:15.274 - The request to create 943.json.md5 was received
+16:30:15.274 - The request to create 942.json.md5 was received
+16:30:15.276 - The request to create 941.json.md5 was received
+16:30:15.290 - 944.json.md5 report request received
+16:30:15.314 - 943.json.md5 report request received
+16:30:15.315 - 950.json.md5 report request received
+16:30:15.317 - worker 4 killed !!!
+16:30:15.318 - The request to create 936.json.md5 was received
+16:30:15.318 - The request to create 937.json.md5 was received
+16:30:15.318 - The request to create 938.json.md5 was received
+16:30:15.319 - The request to create 939.json.md5 was received
+16:30:15.320 - NOT SUCCESS worker 4 for .\TransactionFiles\subfolder\939.json
+16:30:15.320 - The request to create 940.json.md5 was received
+16:30:15.410 - 936.json.md5 report request received
+16:30:15.441 - 938.json.md5 report request received
+16:30:15.443 - worker 3 killed !!!
+16:30:15.444 - 937.json.md5 report request received
+16:30:15.445 - The request to create 931.json.md5 was received
+16:30:15.445 - The request to create 935.json.md5 was received
+16:30:15.446 - The request to create 932.json.md5 was received
+16:30:15.446 - The request to create 933.json.md5 was received
+16:30:15.447 - NOT SUCCESS worker 3 for .\TransactionFiles\subfolder\933.json
+16:30:15.448 - The request to create 934.json.md5 was received
+16:30:15.448 - 935.json.md5 report request received
+16:30:15.484 - worker 5 killed !!!
+16:30:15.485 - 934.json.md5 report request received
+16:30:15.486 - worker 1 killed !!!
+16:30:15.487 - 931.json.md5 report request received
+16:30:15.488 - The request to create 926.json.md5 was received
+16:30:15.490 - NOT SUCCESS worker 5 for .\TransactionFiles\subfolder\926.json
+16:30:15.490 - The request to create 927.json.md5 was received
+16:30:15.491 - The request to create 929.json.md5 was received
+16:30:15.491 - NOT SUCCESS worker 1 for .\TransactionFiles\subfolder\927.json
+16:30:15.492 - The request to create 928.json.md5 was received
+16:30:15.493 - The request to create 930.json.md5 was received
+16:30:15.792 - The request to create 925.json.md5 was received
+16:30:15.793 - 927.json.md5 report request received
+16:30:15.807 - The request to create 920.json.md5 was received
+16:30:15.807 - The request to create 921.json.md5 was received
+16:30:15.808 - The request to create 923.json.md5 was received
+16:30:15.808 - The request to create 922.json.md5 was received
+16:30:15.808 - The request to create 924.json.md5 was received
+16:30:15.955 - The request to create 919.json.md5 was received
+16:30:15.986 - 923.json.md5 report request received
+16:30:16.028 - 922.json.md5 report request received
+16:30:16.029 - worker 1 killed !!!
+16:30:16.030 - 921.json.md5 report request received
+16:30:16.033 - The request to create 914.json.md5 was received
+16:30:16.034 - The request to create 915.json.md5 was received
+16:30:16.034 - The request to create 916.json.md5 was received
+16:30:16.035 - The request to create 917.json.md5 was received
+16:30:16.036 - NOT SUCCESS worker 1 for .\TransactionFiles\subfolder\917.json
+16:30:16.036 - The request to create 918.json.md5 was received
+16:30:16.037 - 915.json.md5 report request received
+16:30:16.065 - worker 5 killed !!!
+16:30:16.065 - 918.json.md5 report request received
+16:30:16.073 - worker 3 killed !!!
+16:30:16.074 - The request to create 909.json.md5 was received
+16:30:16.075 - The request to create 910.json.md5 was received
+16:30:16.075 - NOT SUCCESS worker 5 for .\TransactionFiles\subfolder\909.json
+16:30:16.075 - The request to create 911.json.md5 was received
+16:30:16.077 - NOT SUCCESS worker 3 for .\TransactionFiles\subfolder\911.json
+16:30:16.077 - The request to create 912.json.md5 was received
+16:30:16.079 - The request to create 913.json.md5 was received
+16:30:16.080 - The request to create 908.json.md5 was received
+16:30:16.128 - The request to create 907.json.md5 was received
+16:30:16.129 - The request to create 906.json.md5 was received
+16:30:16.144 - 908.json.md5 report request received
+16:30:16.155 - The request to create 903.json.md5 was received
+16:30:16.156 - The request to create 904.json.md5 was received
+16:30:16.156 - 906.json.md5 report request received
+16:30:16.174 - worker 4 killed !!!
+16:30:16.175 - The request to create 99.json.md5 was received
+16:30:16.176 - The request to create 1000.json.md5 was received
+16:30:16.176 - NOT SUCCESS worker 4 for .\TransactionFiles\subfolder\1000.json
+16:30:16.177 - The request to create 901.json.md5 was received
+16:30:16.178 - The request to create 902.json.md5 was received
+16:30:16.179 - The request to create 905.json.md5 was received
+16:30:16.208 - The request to create 98.json.md5 was received
+16:30:16.209 - The request to create 97.json.md5 was received
+16:30:16.489 - The request to create 96.json.md5 was received
+16:30:16.489 - The request to create 94.json.md5 was received
+16:30:16.491 - 905.json.md5 report request received
+16:30:16.499 - 902.json.md5 report request received
+16:30:16.500 - worker 1 killed !!!
+16:30:16.501 - 94.json.md5 report request received
+16:30:16.503 - The request to create 900.json.md5 was received
+16:30:16.504 - The request to create 91.json.md5 was received
+16:30:16.504 - The request to create 92.json.md5 was received
+16:30:16.505 - The request to create 93.json.md5 was received
+16:30:16.505 - The request to create 95.json.md5 was received
+16:30:16.506 - NOT SUCCESS worker 1 for .\TransactionFiles\95.json
+16:30:16.716 - 900.json.md5 report request received
+16:30:16.728 - 95.json.md5 report request received
+16:30:16.740 - 91.json.md5 report request received
+16:30:16.742 - worker 5 killed !!!
+16:30:16.743 - The request to create 897.json.md5 was received
+16:30:16.743 - The request to create 898.json.md5 was received
+16:30:16.744 - The request to create 899.json.md5 was received
+16:30:16.744 - The request to create 9.json.md5 was received
+16:30:16.745 - NOT SUCCESS worker 5 for .\TransactionFiles\9.json
+16:30:16.745 - The request to create 90.json.md5 was received
+16:30:16.812 - 897.json.md5 report request received
+16:30:16.834 - worker 3 killed !!!
+16:30:16.836 - 90.json.md5 report request received
+16:30:16.837 - The request to create 893.json.md5 was received
+16:30:16.838 - The request to create 892.json.md5 was received
+16:30:16.839 - The request to create 894.json.md5 was received
+16:30:16.839 - NOT SUCCESS worker 3 for .\TransactionFiles\894.json
+16:30:16.839 - The request to create 895.json.md5 was received
+16:30:16.841 - The request to create 896.json.md5 was received
+16:30:16.860 - 893.json.md5 report request received
+16:30:16.887 - 894.json.md5 report request received
+16:30:16.890 - worker 1 killed !!!
+16:30:16.892 - The request to create 888.json.md5 was received
+16:30:16.893 - The request to create 889.json.md5 was received
+16:30:16.894 - The request to create 89.json.md5 was received
+16:30:16.894 - NOT SUCCESS worker 1 for .\TransactionFiles\889.json
+16:30:16.895 - The request to create 890.json.md5 was received
+16:30:16.896 - The request to create 891.json.md5 was received
+16:30:17.100 - The request to create 887.json.md5 was received
+16:30:17.100 - 890.json.md5 report request received
+16:30:17.114 - worker 4 killed !!!
+16:30:17.114 - The request to create 882.json.md5 was received
+16:30:17.115 - The request to create 883.json.md5 was received
+16:30:17.116 - NOT SUCCESS worker 4 for .\TransactionFiles\883.json
+16:30:17.116 - The request to create 886.json.md5 was received
+16:30:17.116 - The request to create 884.json.md5 was received
+16:30:17.117 - The request to create 885.json.md5 was received
+16:30:17.242 - The request to create 881.json.md5 was received
+16:30:17.243 - 883.json.md5 report request received
+16:30:17.265 - worker 3 killed !!!
+16:30:17.265 - 885.json.md5 report request received
+16:30:17.280 - The request to create 879.json.md5 was received
+16:30:17.281 - The request to create 877.json.md5 was received
+16:30:17.281 - NOT SUCCESS worker 3 for .\TransactionFiles\877.json
+16:30:17.281 - The request to create 880.json.md5 was received
+16:30:17.282 - The request to create 878.json.md5 was received
+16:30:17.283 - The request to create 88.json.md5 was received
+16:30:17.305 - 879.json.md5 report request received
+16:30:17.316 - The request to create 875.json.md5 was received
+16:30:17.317 - The request to create 876.json.md5 was received
+16:30:17.318 - 880.json.md5 report request received
+16:30:17.341 - 875.json.md5 report request received
+16:30:17.351 - worker 5 killed !!!
+16:30:17.353 - The request to create 870.json.md5 was received
+16:30:17.354 - The request to create 871.json.md5 was received
+16:30:17.354 - The request to create 872.json.md5 was received
+16:30:17.355 - NOT SUCCESS worker 5 for .\TransactionFiles\872.json
+16:30:17.355 - The request to create 873.json.md5 was received
+16:30:17.356 - The request to create 874.json.md5 was received
+16:30:17.523 - The request to create 87.json.md5 was received
+16:30:17.523 - The request to create 869.json.md5 was received
+16:30:17.554 - The request to create 868.json.md5 was received
+16:30:17.557 - The request to create 867.json.md5 was received
+16:30:17.558 - 873.json.md5 report request received
+16:30:17.571 - worker 1 killed !!!
+16:30:17.573 - 869.json.md5 report request received
+16:30:17.599 - worker 4 killed !!!
+16:30:17.601 - 867.json.md5 report request received
+16:30:17.603 - 868.json.md5 report request received
+16:30:17.605 - The request to create 862.json.md5 was received
+16:30:17.606 - The request to create 863.json.md5 was received
+16:30:17.606 - The request to create 864.json.md5 was received
+16:30:17.607 - The request to create 865.json.md5 was received
+16:30:17.607 - NOT SUCCESS worker 4 for .\TransactionFiles\864.json
+16:30:17.608 - NOT SUCCESS worker 1 for .\TransactionFiles\865.json
+16:30:17.608 - The request to create 866.json.md5 was received
+16:30:17.609 - The request to create 861.json.md5 was received
+16:30:17.610 - The request to create 860.json.md5 was received
+16:30:17.810 - The request to create 86.json.md5 was received
+16:30:17.811 - 861.json.md5 report request received
+16:30:17.822 - worker 3 killed !!!
+16:30:17.822 - 860.json.md5 report request received
+16:30:17.824 - 865.json.md5 report request received
+16:30:17.834 - The request to create 854.json.md5 was received
+16:30:17.835 - The request to create 856.json.md5 was received
+16:30:17.835 - NOT SUCCESS worker 3 for .\TransactionFiles\856.json
+16:30:17.835 - The request to create 857.json.md5 was received
+16:30:17.836 - The request to create 858.json.md5 was received
+16:30:17.837 - 854.json.md5 report request received
+16:30:17.848 - worker 2 killed !!!
+16:30:17.849 - 857.json.md5 report request received
+16:30:17.867 - 858.json.md5 report request received
+16:30:17.878 - worker 5 killed !!!
+16:30:17.879 - 856.json.md5 report request received
+16:30:17.880 - worker 1 killed !!!
+16:30:17.881 - The request to create 850.json.md5 was received
+16:30:17.882 - NOT SUCCESS worker 2 for .\TransactionFiles\850.json
+16:30:17.882 - The request to create 851.json.md5 was received
+16:30:17.882 - NOT SUCCESS worker 5 for .\TransactionFiles\850.json
+16:30:17.883 - NOT SUCCESS worker 1 for .\TransactionFiles\850.json
+16:30:17.884 - The request to create 852.json.md5 was received
+16:30:17.885 - The request to create 853.json.md5 was received
+16:30:17.886 - The request to create 859.json.md5 was received
+16:30:17.906 - The request to create 85.json.md5 was received
+16:30:18.169 - 850.json.md5 report request received
+16:30:18.181 - worker 4 killed !!!
+16:30:18.182 - 852.json.md5 report request received
+16:30:18.183 - 85.json.md5 report request received
+16:30:18.186 - The request to create 844.json.md5 was received
+16:30:18.186 - NOT SUCCESS worker 4 for .\TransactionFiles\844.json
+16:30:18.187 - The request to create 845.json.md5 was received
+16:30:18.187 - The request to create 846.json.md5 was received
+16:30:18.188 - The request to create 848.json.md5 was received
+16:30:18.188 - The request to create 849.json.md5 was received
+16:30:18.309 - The request to create 843.json.md5 was received
+16:30:18.310 - 849.json.md5 report request received
+16:30:18.323 - 844.json.md5 report request received
+16:30:18.332 - worker 3 killed !!!
+16:30:18.333 - The request to create 839.json.md5 was received
+16:30:18.334 - The request to create 84.json.md5 was received
+16:30:18.334 - The request to create 840.json.md5 was received
+16:30:18.335 - The request to create 841.json.md5 was received
+16:30:18.335 - The request to create 842.json.md5 was received
+16:30:18.336 - NOT SUCCESS worker 3 for .\TransactionFiles\841.json
+16:30:18.357 - 839.json.md5 report request received
+16:30:18.368 - 84.json.md5 report request received
+16:30:18.403 - 840.json.md5 report request received
+16:30:18.404 - worker 2 killed !!!
+16:30:18.405 - The request to create 830.json.md5 was received
+16:30:18.406 - The request to create 831.json.md5 was received
+16:30:18.407 - The request to create 832.json.md5 was received
+16:30:18.408 - The request to create 835.json.md5 was received
+16:30:18.408 - The request to create 838.json.md5 was received
+16:30:18.409 - NOT SUCCESS worker 2 for .\TransactionFiles\830.json
+16:30:18.682 - The request to create 83.json.md5 was received
+16:30:18.682 - The request to create 829.json.md5 was received
+16:30:18.684 - 830.json.md5 report request received
+16:30:18.691 - worker 1 killed !!!
+16:30:18.691 - 829.json.md5 report request received
+16:30:18.708 - worker 5 killed !!!
+16:30:18.709 - 83.json.md5 report request received
+16:30:18.711 - 838.json.md5 report request received
+16:30:18.713 - The request to create 824.json.md5 was received
+16:30:18.714 - NOT SUCCESS worker 1 for .\TransactionFiles\824.json
+16:30:18.715 - The request to create 825.json.md5 was received
+16:30:18.715 - The request to create 827.json.md5 was received
+16:30:18.716 - The request to create 826.json.md5 was received
+16:30:18.717 - NOT SUCCESS worker 5 for .\TransactionFiles\826.json
+16:30:18.717 - The request to create 828.json.md5 was received
+16:30:18.778 - 827.json.md5 report request received
+16:30:18.805 - worker 4 killed !!!
+16:30:18.806 - 825.json.md5 report request received
+16:30:18.809 - The request to create 82.json.md5 was received
+16:30:18.810 - The request to create 822.json.md5 was received
+16:30:18.810 - NOT SUCCESS worker 4 for .\TransactionFiles\822.json
+16:30:18.811 - The request to create 821.json.md5 was received
+16:30:18.812 - The request to create 820.json.md5 was received
+16:30:18.812 - The request to create 823.json.md5 was received
+16:30:18.842 - 82.json.md5 report request received
+16:30:18.855 - worker 2 killed !!!
+16:30:18.858 - 821.json.md5 report request received
+16:30:18.859 - The request to create 814.json.md5 was received
+16:30:18.861 - The request to create 815.json.md5 was received
+16:30:18.861 - NOT SUCCESS worker 2 for .\TransactionFiles\815.json
+16:30:18.862 - The request to create 816.json.md5 was received
+16:30:18.862 - The request to create 818.json.md5 was received
+16:30:18.863 - The request to create 819.json.md5 was received
+16:30:18.888 - The request to create 813.json.md5 was received
+16:30:19.027 - The request to create 812.json.md5 was received
+16:30:19.027 - The request to create 811.json.md5 was received
+16:30:19.028 - The request to create 810.json.md5 was received
+16:30:19.028 - 813.json.md5 report request received
+16:30:19.034 - 810.json.md5 report request received
+16:30:19.035 - worker 1 killed !!!
+16:30:19.036 - 811.json.md5 report request received
+16:30:19.050 - worker 5 killed !!!
+16:30:19.052 - 815.json.md5 report request received
+16:30:19.054 - The request to create 806.json.md5 was received
+16:30:19.055 - The request to create 807.json.md5 was received
+16:30:19.055 - The request to create 808.json.md5 was received
+16:30:19.056 - The request to create 809.json.md5 was received
+16:30:19.057 - NOT SUCCESS worker 1 for .\TransactionFiles\809.json
+16:30:19.057 - The request to create 81.json.md5 was received
+16:30:19.058 - NOT SUCCESS worker 5 for .\TransactionFiles\809.json
+16:30:19.059 - 806.json.md5 report request received
+16:30:19.089 - 807.json.md5 report request received
+16:30:19.091 - worker 2 killed !!!
+16:30:19.092 - The request to create 801.json.md5 was received
+16:30:19.092 - NOT SUCCESS worker 2 for .\TransactionFiles\801.json
+16:30:19.093 - The request to create 802.json.md5 was received
+16:30:19.093 - The request to create 803.json.md5 was received
+16:30:19.094 - The request to create 804.json.md5 was received
+16:30:19.094 - The request to create 805.json.md5 was received
+16:30:19.323 - 802.json.md5 report request received
+16:30:19.336 - worker 4 killed !!!
+16:30:19.337 - The request to create 798.json.md5 was received
+16:30:19.339 - NOT SUCCESS worker 4 for .\TransactionFiles\798.json
+16:30:19.339 - The request to create 80.json.md5 was received
+16:30:19.340 - The request to create 8.json.md5 was received
+16:30:19.340 - The request to create 799.json.md5 was received
+16:30:19.340 - The request to create 800.json.md5 was received
+16:30:19.565 - The request to create 797.json.md5 was received
+16:30:19.582 - The request to create 796.json.md5 was received
+16:30:19.583 - The request to create 793.json.md5 was received
+16:30:19.583 - The request to create 794.json.md5 was received
+16:30:19.584 - The request to create 795.json.md5 was received
+16:30:19.868 - The request to create 792.json.md5 was received
+16:30:19.868 - The request to create 791.json.md5 was received
+16:30:19.870 - The request to create 790.json.md5 was received
+16:30:19.870 - The request to create 79.json.md5 was received
+16:30:19.931 - The request to create 789.json.md5 was received
+16:30:19.931 - The request to create 788.json.md5 was received
+16:30:19.946 - The request to create 787.json.md5 was received
+16:30:19.947 - 790.json.md5 report request received
+16:30:19.969 - 789.json.md5 report request received
+16:30:19.982 - The request to create 782.json.md5 was received
+16:30:19.982 - The request to create 783.json.md5 was received
+16:30:19.983 - The request to create 784.json.md5 was received
+16:30:19.983 - The request to create 785.json.md5 was received
+16:30:19.984 - The request to create 786.json.md5 was received
+16:30:19.991 - 782.json.md5 report request received
+16:30:20.007 - worker 2 killed !!!
+16:30:20.008 - 786.json.md5 report request received
+16:30:20.009 - worker 1 killed !!!
+16:30:20.010 - 784.json.md5 report request received
+16:30:20.032 - worker 4 killed !!!
+16:30:20.033 - The request to create 778.json.md5 was received
+16:30:20.035 - NOT SUCCESS worker 2 for .\TransactionFiles\778.json
+16:30:20.035 - The request to create 779.json.md5 was received
+16:30:20.036 - NOT SUCCESS worker 4 for .\TransactionFiles\779.json
+16:30:20.036 - The request to create 78.json.md5 was received
+16:30:20.037 - NOT SUCCESS worker 1 for .\TransactionFiles\78.json
+16:30:20.037 - The request to create 780.json.md5 was received
+16:30:20.038 - The request to create 781.json.md5 was received
+16:30:20.215 - The request to create 777.json.md5 was received
+16:30:20.216 - The request to create 775.json.md5 was received
+16:30:20.216 - The request to create 774.json.md5 was received
+16:30:20.277 - The request to create 776.json.md5 was received
+16:30:20.278 - 777.json.md5 report request received
+16:30:20.305 - 774.json.md5 report request received
+16:30:20.306 - The request to create 77.json.md5 was received
+16:30:20.307 - The request to create 770.json.md5 was received
+16:30:20.307 - The request to create 772.json.md5 was received
+16:30:20.307 - The request to create 771.json.md5 was received
+16:30:20.308 - The request to create 773.json.md5 was received
+16:30:20.412 - The request to create 769.json.md5 was received
+16:30:20.428 - The request to create 768.json.md5 was received
+16:30:20.429 - 77.json.md5 report request received
+16:30:20.468 - 769.json.md5 report request received
+16:30:20.470 - worker 4 killed !!!
+16:30:20.471 - The request to create 763.json.md5 was received
+16:30:20.471 - The request to create 764.json.md5 was received
+16:30:20.471 - The request to create 765.json.md5 was received
+16:30:20.471 - The request to create 766.json.md5 was received
+16:30:20.472 - The request to create 767.json.md5 was received
+16:30:20.472 - NOT SUCCESS worker 4 for .\TransactionFiles\766.json
+16:30:20.668 - The request to create 762.json.md5 was received
+16:30:20.731 - The request to create 760.json.md5 was received
+16:30:20.731 - The request to create 76.json.md5 was received
+16:30:20.731 - The request to create 761.json.md5 was received
+16:30:20.731 - The request to create 759.json.md5 was received
+16:30:20.731 - The request to create 758.json.md5 was received
+16:30:20.930 - The request to create 757.json.md5 was received
+16:30:21.013 - 759.json.md5 report request received
+16:30:21.047 - The request to create 752.json.md5 was received
+16:30:21.048 - The request to create 754.json.md5 was received
+16:30:21.048 - The request to create 753.json.md5 was received
+16:30:21.049 - The request to create 755.json.md5 was received
+16:30:21.049 - The request to create 756.json.md5 was received
+16:30:21.267 - The request to create 750.json.md5 was received
+16:30:21.268 - The request to create 75.json.md5 was received
+16:30:21.268 - The request to create 751.json.md5 was received
+16:30:21.269 - 755.json.md5 report request received
+16:30:21.292 - worker 4 killed !!!
+16:30:21.292 - 751.json.md5 report request received
+16:30:21.294 - worker 1 killed !!!
+16:30:21.294 - The request to create 745.json.md5 was received
+16:30:21.295 - The request to create 746.json.md5 was received
+16:30:21.295 - NOT SUCCESS worker 4 for .\TransactionFiles\746.json
+16:30:21.295 - The request to create 747.json.md5 was received
+16:30:21.296 - The request to create 748.json.md5 was received
+16:30:21.296 - NOT SUCCESS worker 1 for .\TransactionFiles\748.json
+16:30:21.297 - The request to create 749.json.md5 was received
+16:30:21.370 - The request to create 744.json.md5 was received
+16:30:21.419 - The request to create 743.json.md5 was received
+16:30:21.420 - The request to create 742.json.md5 was received
+16:30:21.420 - The request to create 741.json.md5 was received
+16:30:21.421 - 748.json.md5 report request received
+16:30:21.427 - The request to create 738.json.md5 was received
+16:30:21.427 - The request to create 739.json.md5 was received
+16:30:21.428 - The request to create 74.json.md5 was received
+16:30:21.428 - The request to create 740.json.md5 was received
+16:30:21.451 - The request to create 737.json.md5 was received
+16:30:21.452 - The request to create 736.json.md5 was received
+16:30:21.529 - The request to create 735.json.md5 was received
+16:30:21.633 - 739.json.md5 report request received
+16:30:21.663 - The request to create 730.json.md5 was received
+16:30:21.663 - The request to create 731.json.md5 was received
+16:30:21.664 - The request to create 733.json.md5 was received
+16:30:21.664 - The request to create 732.json.md5 was received
+16:30:21.664 - The request to create 734.json.md5 was received
+16:30:21.682 - 730.json.md5 report request received
+16:30:21.711 - worker 4 killed !!!
+16:30:21.712 - The request to create 726.json.md5 was received
+16:30:21.712 - NOT SUCCESS worker 4 for .\TransactionFiles\726.json
+16:30:21.713 - The request to create 727.json.md5 was received
+16:30:21.713 - The request to create 728.json.md5 was received
+16:30:21.714 - The request to create 729.json.md5 was received
+16:30:21.714 - The request to create 73.json.md5 was received
+16:30:21.793 - The request to create 725.json.md5 was received
+16:30:21.794 - The request to create 724.json.md5 was received
+16:30:21.794 - The request to create 722.json.md5 was received
+16:30:21.809 - The request to create 721.json.md5 was received
+16:30:21.810 - The request to create 723.json.md5 was received
+16:30:21.810 - 725.json.md5 report request received
+16:30:21.834 - The request to create 717.json.md5 was received
+16:30:21.835 - The request to create 718.json.md5 was received
+16:30:21.835 - The request to create 719.json.md5 was received
+16:30:21.835 - The request to create 72.json.md5 was received
+16:30:21.836 - The request to create 720.json.md5 was received
+16:30:21.966 - The request to create 716.json.md5 was received
+16:30:21.999 - The request to create 715.json.md5 was received
+16:30:22.000 - 720.json.md5 report request received
+16:30:22.029 - 715.json.md5 report request received
+16:30:22.031 - The request to create 710.json.md5 was received
+16:30:22.031 - The request to create 711.json.md5 was received
+16:30:22.031 - The request to create 714.json.md5 was received
+16:30:22.032 - The request to create 712.json.md5 was received
+16:30:22.032 - The request to create 713.json.md5 was received
+16:30:22.063 - The request to create 71.json.md5 was received
+16:30:22.141 - The request to create 708.json.md5 was received
+16:30:22.141 - The request to create 709.json.md5 was received
+16:30:22.156 - The request to create 706.json.md5 was received
+16:30:22.157 - The request to create 705.json.md5 was received
+16:30:22.157 - The request to create 707.json.md5 was received
+16:30:22.300 - The request to create 704.json.md5 was received
+16:30:22.349 - The request to create 703.json.md5 was received
+16:30:22.350 - The request to create 702.json.md5 was received
+16:30:22.351 - The request to create 701.json.md5 was received
+16:30:22.351 - 707.json.md5 report request received
+16:30:22.369 - worker 2 killed !!!
+16:30:22.371 - 703.json.md5 report request received
+16:30:22.388 - worker 4 killed !!!
+16:30:22.390 - The request to create 698.json.md5 was received
+16:30:22.391 - NOT SUCCESS worker 2 for .\TransactionFiles\698.json
+16:30:22.391 - The request to create 699.json.md5 was received
+16:30:22.392 - NOT SUCCESS worker 4 for .\TransactionFiles\699.json
+16:30:22.392 - The request to create 7.json.md5 was received
+16:30:22.393 - The request to create 70.json.md5 was received
+16:30:22.393 - The request to create 700.json.md5 was received
+16:30:22.558 - The request to create 697.json.md5 was received
+16:30:22.559 - The request to create 696.json.md5 was received
+16:30:22.559 - The request to create 693.json.md5 was received
+16:30:22.560 - The request to create 694.json.md5 was received
+16:30:22.574 - The request to create 695.json.md5 was received
+16:30:22.608 - The request to create 692.json.md5 was received
+16:30:22.609 - The request to create 691.json.md5 was received
+16:30:22.609 - The request to create 690.json.md5 was received
+16:30:22.610 - 694.json.md5 report request received
+16:30:22.627 - 695.json.md5 report request received
+16:30:22.647 - The request to create 686.json.md5 was received
+16:30:22.648 - The request to create 687.json.md5 was received
+16:30:22.648 - The request to create 688.json.md5 was received
+16:30:22.648 - The request to create 689.json.md5 was received
+16:30:22.649 - The request to create 69.json.md5 was received
+16:30:22.791 - 686.json.md5 report request received
+16:30:22.806 - worker 2 killed !!!
+16:30:22.807 - 689.json.md5 report request received
+16:30:22.808 - worker 1 killed !!!
+16:30:22.809 - The request to create 681.json.md5 was received
+16:30:22.810 - NOT SUCCESS worker 2 for .\TransactionFiles\681.json
+16:30:22.810 - The request to create 682.json.md5 was received
+16:30:22.810 - The request to create 683.json.md5 was received
+16:30:22.811 - The request to create 684.json.md5 was received
+16:30:22.811 - NOT SUCCESS worker 1 for .\TransactionFiles\684.json
+16:30:22.811 - The request to create 685.json.md5 was received
+16:30:22.839 - 682.json.md5 report request received
+16:30:22.861 - worker 4 killed !!!
+16:30:22.862 - 684.json.md5 report request received
+16:30:22.865 - The request to create 677.json.md5 was received
+16:30:22.866 - The request to create 678.json.md5 was received
+16:30:22.866 - NOT SUCCESS worker 4 for .\TransactionFiles\678.json
+16:30:22.866 - The request to create 679.json.md5 was received
+16:30:22.868 - The request to create 68.json.md5 was received
+16:30:22.869 - The request to create 680.json.md5 was received
+16:30:22.869 - The request to create 676.json.md5 was received
+16:30:22.917 - The request to create 675.json.md5 was received
+16:30:22.949 - The request to create 674.json.md5 was received
+16:30:22.950 - The request to create 673.json.md5 was received
+16:30:22.951 - The request to create 671.json.md5 was received
+16:30:22.951 - The request to create 672.json.md5 was received
+16:30:23.094 - The request to create 670.json.md5 was received
+16:30:23.141 - The request to create 67.json.md5 was received
+16:30:23.142 - The request to create 667.json.md5 was received
+16:30:23.142 - The request to create 669.json.md5 was received
+16:30:23.188 - The request to create 668.json.md5 was received
+16:30:23.189 - The request to create 666.json.md5 was received
+16:30:23.189 - The request to create 665.json.md5 was received
+16:30:23.223 - The request to create 664.json.md5 was received
+16:30:23.319 - The request to create 663.json.md5 was received
+16:30:23.366 - The request to create 662.json.md5 was received
+16:30:23.367 - The request to create 661.json.md5 was received
+16:30:23.368 - 668.json.md5 report request received
+16:30:23.396 - worker 4 killed !!!
+16:30:23.397 - 663.json.md5 report request received
+16:30:23.399 - The request to create 657.json.md5 was received
+16:30:23.399 - NOT SUCCESS worker 4 for .\TransactionFiles\657.json
+16:30:23.399 - The request to create 658.json.md5 was received
+16:30:23.400 - The request to create 659.json.md5 was received
+16:30:23.400 - The request to create 66.json.md5 was received
+16:30:23.401 - The request to create 660.json.md5 was received
+16:30:23.527 - 657.json.md5 report request received
+16:30:23.533 - 658.json.md5 report request received
+16:30:23.538 - worker 2 killed !!!
+16:30:23.539 - The request to create 655.json.md5 was received
+16:30:23.540 - NOT SUCCESS worker 2 for .\TransactionFiles\655.json
+16:30:23.541 - The request to create 653.json.md5 was received
+16:30:23.541 - The request to create 652.json.md5 was received
+16:30:23.542 - The request to create 654.json.md5 was received
+16:30:23.542 - The request to create 656.json.md5 was received
+16:30:23.719 - The request to create 651.json.md5 was received
+16:30:23.719 - 655.json.md5 report request received
+16:30:23.728 - worker 1 killed !!!
+16:30:23.729 - The request to create 647.json.md5 was received
+16:30:23.729 - The request to create 65.json.md5 was received
+16:30:23.729 - The request to create 649.json.md5 was received
+16:30:23.730 - The request to create 648.json.md5 was received
+16:30:23.730 - The request to create 650.json.md5 was received
+16:30:23.731 - NOT SUCCESS worker 1 for .\TransactionFiles\650.json
+16:30:23.771 - The request to create 646.json.md5 was received
+16:30:23.830 - The request to create 645.json.md5 was received
+16:30:23.831 - The request to create 644.json.md5 was received
+16:30:23.831 - The request to create 643.json.md5 was received
+16:30:23.832 - The request to create 642.json.md5 was received
+16:30:23.832 - The request to create 641.json.md5 was received
+16:30:23.894 - 645.json.md5 report request received
+16:30:23.913 - The request to create 636.json.md5 was received
+16:30:23.913 - The request to create 638.json.md5 was received
+16:30:23.913 - The request to create 637.json.md5 was received
+16:30:23.914 - The request to create 64.json.md5 was received
+16:30:23.914 - The request to create 640.json.md5 was received
+16:30:23.957 - 636.json.md5 report request received
+16:30:23.974 - The request to create 632.json.md5 was received
+16:30:23.974 - The request to create 631.json.md5 was received
+16:30:23.975 - The request to create 633.json.md5 was received
+16:30:23.975 - The request to create 634.json.md5 was received
+16:30:23.976 - The request to create 635.json.md5 was received
+16:30:24.121 - 632.json.md5 report request received
+16:30:24.132 - worker 2 killed !!!
+16:30:24.134 - The request to create 630.json.md5 was received
+16:30:24.134 - NOT SUCCESS worker 2 for .\TransactionFiles\630.json
+16:30:24.134 - The request to create 625.json.md5 was received
+16:30:24.135 - The request to create 628.json.md5 was received
+16:30:24.135 - The request to create 629.json.md5 was received
+16:30:24.136 - The request to create 63.json.md5 was received
+16:30:24.332 - The request to create 623.json.md5 was received
+16:30:24.332 - 628.json.md5 report request received
+16:30:24.352 - worker 4 killed !!!
+16:30:24.352 - 629.json.md5 report request received
+16:30:24.353 - 625.json.md5 report request received
+16:30:24.362 - worker 5 killed !!!
+16:30:24.364 - The request to create 618.json.md5 was received
+16:30:24.365 - NOT SUCCESS worker 4 for .\TransactionFiles\618.json
+16:30:24.365 - The request to create 619.json.md5 was received
+16:30:24.366 - The request to create 62.json.md5 was received
+16:30:24.367 - The request to create 620.json.md5 was received
+16:30:24.367 - NOT SUCCESS worker 5 for .\TransactionFiles\620.json
+16:30:24.368 - The request to create 622.json.md5 was received
+16:30:24.410 - The request to create 617.json.md5 was received
+16:30:24.426 - 622.json.md5 report request received
+16:30:24.435 - worker 1 killed !!!
+16:30:24.436 - The request to create 614.json.md5 was received
+16:30:24.436 - The request to create 612.json.md5 was received
+16:30:24.437 - NOT SUCCESS worker 1 for .\TransactionFiles\612.json
+16:30:24.437 - The request to create 613.json.md5 was received
+16:30:24.438 - The request to create 615.json.md5 was received
+16:30:24.439 - The request to create 616.json.md5 was received
+16:30:24.441 - The request to create 611.json.md5 was received
+16:30:24.489 - The request to create 610.json.md5 was received
+16:30:24.504 - The request to create 61.json.md5 was received
+16:30:24.505 - The request to create 609.json.md5 was received
+16:30:24.506 - The request to create 608.json.md5 was received
+16:30:24.506 - The request to create 607.json.md5 was received
+16:30:24.673 - 61.json.md5 report request received
+16:30:24.687 - worker 3 killed !!!
+16:30:24.689 - 607.json.md5 report request received
+16:30:24.708 - The request to create 602.json.md5 was received
+16:30:24.708 - NOT SUCCESS worker 3 for .\TransactionFiles\602.json
+16:30:24.708 - The request to create 603.json.md5 was received
+16:30:24.709 - The request to create 605.json.md5 was received
+16:30:24.710 - The request to create 604.json.md5 was received
+16:30:24.710 - The request to create 606.json.md5 was received
+16:30:24.946 - 603.json.md5 report request received
+16:30:24.965 - 605.json.md5 report request received
+16:30:24.972 - worker 5 killed !!!
+16:30:24.973 - The request to create 6.json.md5 was received
+16:30:24.974 - The request to create 60.json.md5 was received
+16:30:24.974 - NOT SUCCESS worker 5 for .\TransactionFiles\60.json
+16:30:24.975 - The request to create 599.json.md5 was received
+16:30:24.975 - The request to create 601.json.md5 was received
+16:30:24.975 - The request to create 600.json.md5 was received
+16:30:25.121 - 6.json.md5 report request received
+16:30:25.144 - worker 4 killed !!!
+16:30:25.145 - 600.json.md5 report request received
+16:30:25.147 - The request to create 598.json.md5 was received
+16:30:25.147 - The request to create 595.json.md5 was received
+16:30:25.147 - The request to create 594.json.md5 was received
+16:30:25.148 - NOT SUCCESS worker 4 for .\TransactionFiles\594.json
+16:30:25.148 - The request to create 596.json.md5 was received
+16:30:25.149 - The request to create 597.json.md5 was received
+16:30:25.167 - 598.json.md5 report request received
+16:30:25.185 - 595.json.md5 report request received
+16:30:25.187 - The request to create 587.json.md5 was received
+16:30:25.187 - The request to create 588.json.md5 was received
+16:30:25.188 - The request to create 59.json.md5 was received
+16:30:25.189 - The request to create 590.json.md5 was received
+16:30:25.189 - The request to create 591.json.md5 was received
+16:30:25.356 - The request to create 586.json.md5 was received
+16:30:25.356 - The request to create 584.json.md5 was received
+16:30:25.356 - The request to create 583.json.md5 was received
+16:30:25.356 - 590.json.md5 report request received
+16:30:25.399 - 583.json.md5 report request received
+16:30:25.402 - worker 5 killed !!!
+16:30:25.403 - The request to create 579.json.md5 was received
+16:30:25.404 - The request to create 58.json.md5 was received
+16:30:25.404 - The request to create 581.json.md5 was received
+16:30:25.405 - The request to create 580.json.md5 was received
+16:30:25.405 - The request to create 582.json.md5 was received
+16:30:25.406 - NOT SUCCESS worker 5 for .\TransactionFiles\582.json
+16:30:25.450 - The request to create 578.json.md5 was received
+16:30:25.466 - 582.json.md5 report request received
+16:30:25.475 - worker 1 killed !!!
+16:30:25.477 - 58.json.md5 report request received
+16:30:25.509 - worker 4 killed !!!
+16:30:25.511 - The request to create 573.json.md5 was received
+16:30:25.512 - NOT SUCCESS worker 4 for .\TransactionFiles\573.json
+16:30:25.512 - The request to create 574.json.md5 was received
+16:30:25.513 - NOT SUCCESS worker 1 for .\TransactionFiles\574.json
+16:30:25.514 - The request to create 575.json.md5 was received
+16:30:25.514 - The request to create 577.json.md5 was received
+16:30:25.514 - The request to create 576.json.md5 was received
+16:30:25.545 - The request to create 572.json.md5 was received
+16:30:25.592 - 574.json.md5 report request received
+16:30:25.598 - worker 2 killed !!!
+16:30:25.599 - 576.json.md5 report request received
+16:30:25.600 - The request to create 568.json.md5 was received
+16:30:25.600 - The request to create 569.json.md5 was received
+16:30:25.601 - NOT SUCCESS worker 2 for .\TransactionFiles\569.json
+16:30:25.601 - The request to create 57.json.md5 was received
+16:30:25.602 - The request to create 570.json.md5 was received
+16:30:25.602 - The request to create 571.json.md5 was received
+16:30:25.623 - 568.json.md5 report request received
+16:30:25.637 - The request to create 565.json.md5 was received
+16:30:25.638 - The request to create 566.json.md5 was received
+16:30:25.639 - The request to create 567.json.md5 was received
+16:30:25.640 - The request to create 564.json.md5 was received
+16:30:25.686 - The request to create 563.json.md5 was received
+16:30:25.734 - The request to create 561.json.md5 was received
+16:30:25.734 - The request to create 562.json.md5 was received
+16:30:25.735 - The request to create 56.json.md5 was received
+16:30:25.735 - The request to create 560.json.md5 was received
+16:30:25.735 - The request to create 559.json.md5 was received
+16:30:25.896 - The request to create 558.json.md5 was received
+16:30:25.896 - 56.json.md5 report request received
+16:30:25.914 - 560.json.md5 report request received
+16:30:25.916 - worker 3 killed !!!
+16:30:25.917 - The request to create 553.json.md5 was received
+16:30:25.917 - The request to create 555.json.md5 was received
+16:30:25.918 - NOT SUCCESS worker 3 for .\TransactionFiles\555.json
+16:30:25.918 - The request to create 554.json.md5 was received
+16:30:25.919 - The request to create 556.json.md5 was received
+16:30:25.920 - The request to create 557.json.md5 was received
+16:30:25.958 - 553.json.md5 report request received
+16:30:25.979 - 554.json.md5 report request received
+16:30:25.980 - worker 2 killed !!!
+16:30:25.981 - 557.json.md5 report request received
+16:30:25.983 - worker 5 killed !!!
+16:30:25.983 - The request to create 549.json.md5 was received
+16:30:25.984 - The request to create 550.json.md5 was received
+16:30:25.984 - The request to create 55.json.md5 was received
+16:30:25.985 - NOT SUCCESS worker 5 for .\TransactionFiles\55.json
+16:30:25.985 - The request to create 551.json.md5 was received
+16:30:25.986 - NOT SUCCESS worker 2 for .\TransactionFiles\55.json
+16:30:25.987 - The request to create 552.json.md5 was received
+16:30:26.004 - The request to create 548.json.md5 was received
+16:30:26.148 - The request to create 547.json.md5 was received
+16:30:26.179 - The request to create 546.json.md5 was received
+16:30:26.180 - The request to create 545.json.md5 was received
+16:30:26.180 - The request to create 544.json.md5 was received
+16:30:26.180 - The request to create 543.json.md5 was received
+16:30:26.330 - The request to create 542.json.md5 was received
+16:30:26.442 - The request to create 541.json.md5 was received
+16:30:26.442 - The request to create 539.json.md5 was received
+16:30:26.442 - The request to create 540.json.md5 was received
+16:30:26.474 - The request to create 54.json.md5 was received
+16:30:26.475 - 542.json.md5 report request received
+16:30:26.486 - 540.json.md5 report request received
+16:30:26.518 - 54.json.md5 report request received
+16:30:26.519 - The request to create 534.json.md5 was received
+16:30:26.519 - The request to create 535.json.md5 was received
+16:30:26.520 - The request to create 536.json.md5 was received
+16:30:26.520 - The request to create 537.json.md5 was received
+16:30:26.520 - The request to create 538.json.md5 was received
+16:30:26.761 - 537.json.md5 report request received
+16:30:26.792 - worker 5 killed !!!
+16:30:26.793 - The request to create 53.json.md5 was received
+16:30:26.793 - The request to create 530.json.md5 was received
+16:30:26.794 - The request to create 531.json.md5 was received
+16:30:26.794 - The request to create 532.json.md5 was received
+16:30:26.795 - The request to create 533.json.md5 was received
+16:30:26.795 - NOT SUCCESS worker 5 for .\TransactionFiles\533.json
+16:30:26.927 - The request to create 529.json.md5 was received
+16:30:26.927 - The request to create 528.json.md5 was received
+16:30:26.959 - The request to create 527.json.md5 was received
+16:30:26.960 - The request to create 525.json.md5 was received
+16:30:26.960 - The request to create 526.json.md5 was received
+16:30:27.285 - The request to create 524.json.md5 was received
+16:30:27.299 - The request to create 523.json.md5 was received
+16:30:27.301 - The request to create 521.json.md5 was received
+16:30:27.301 - The request to create 522.json.md5 was received
+16:30:27.301 - The request to create 520.json.md5 was received
+16:30:27.475 - The request to create 52.json.md5 was received
+16:30:27.475 - The request to create 519.json.md5 was received
+16:30:27.490 - The request to create 518.json.md5 was received
+16:30:27.491 - The request to create 517.json.md5 was received
+16:30:27.492 - 522.json.md5 report request received
+16:30:27.507 - worker 2 killed !!!
+16:30:27.508 - The request to create 512.json.md5 was received
+16:30:27.508 - NOT SUCCESS worker 2 for .\TransactionFiles\512.json
+16:30:27.508 - The request to create 513.json.md5 was received
+16:30:27.510 - The request to create 514.json.md5 was received
+16:30:27.510 - The request to create 515.json.md5 was received
+16:30:27.511 - The request to create 516.json.md5 was received
+16:30:27.584 - The request to create 511.json.md5 was received
+16:30:27.631 - The request to create 510.json.md5 was received
+16:30:27.632 - The request to create 51.json.md5 was received
+16:30:27.632 - The request to create 509.json.md5 was received
+16:30:27.632 - The request to create 508.json.md5 was received
+16:30:27.740 - The request to create 507.json.md5 was received
+16:30:27.773 - 51.json.md5 report request received
+16:30:27.808 - 507.json.md5 report request received
+16:30:27.809 - The request to create 502.json.md5 was received
+16:30:27.810 - The request to create 505.json.md5 was received
+16:30:27.810 - The request to create 503.json.md5 was received
+16:30:27.810 - The request to create 504.json.md5 was received
+16:30:27.811 - The request to create 506.json.md5 was received
+16:30:27.836 - The request to create 501.json.md5 was received
+16:30:27.838 - 505.json.md5 report request received
+16:30:27.877 - worker 5 killed !!!
+16:30:27.877 - 506.json.md5 report request received
+16:30:27.878 - worker 2 killed !!!
+16:30:27.879 - 501.json.md5 report request received
+16:30:27.880 - worker 1 killed !!!
+16:30:27.881 - The request to create 498.json.md5 was received
+16:30:27.882 - NOT SUCCESS worker 5 for .\TransactionFiles\498.json
+16:30:27.882 - The request to create 499.json.md5 was received
+16:30:27.882 - The request to create 500.json.md5 was received
+16:30:27.883 - The request to create 50.json.md5 was received
+16:30:27.883 - NOT SUCCESS worker 2 for .\TransactionFiles\500.json
+16:30:27.883 - NOT SUCCESS worker 1 for .\TransactionFiles\50.json
+16:30:27.883 - The request to create 5.json.md5 was received
+16:30:27.915 - The request to create 497.json.md5 was received
+16:30:27.960 - The request to create 496.json.md5 was received
+16:30:28.025 - The request to create 494.json.md5 was received
+16:30:28.025 - The request to create 495.json.md5 was received
+16:30:28.041 - The request to create 493.json.md5 was received
+16:30:28.042 - 496.json.md5 report request received
+16:30:28.063 - worker 4 killed !!!
+16:30:28.063 - The request to create 489.json.md5 was received
+16:30:28.064 - The request to create 49.json.md5 was received
+16:30:28.064 - The request to create 490.json.md5 was received
+16:30:28.064 - The request to create 491.json.md5 was received
+16:30:28.065 - NOT SUCCESS worker 4 for .\TransactionFiles\491.json
+16:30:28.065 - The request to create 492.json.md5 was received
+16:30:28.321 - The request to create 488.json.md5 was received
+16:30:28.321 - The request to create 487.json.md5 was received
+16:30:28.353 - The request to create 486.json.md5 was received
+16:30:28.354 - 49.json.md5 report request received
+16:30:28.363 - The request to create 483.json.md5 was received
+16:30:28.364 - 487.json.md5 report request received
+16:30:28.365 - worker 1 killed !!!
+16:30:28.366 - The request to create 481.json.md5 was received
+16:30:28.366 - The request to create 482.json.md5 was received
+16:30:28.367 - The request to create 484.json.md5 was received
+16:30:28.367 - NOT SUCCESS worker 1 for .\TransactionFiles\484.json
+16:30:28.368 - The request to create 485.json.md5 was received
+16:30:28.369 - The request to create 480.json.md5 was received
+16:30:28.415 - The request to create 48.json.md5 was received
+16:30:28.462 - The request to create 479.json.md5 was received
+16:30:28.463 - The request to create 478.json.md5 was received
+16:30:28.479 - The request to create 477.json.md5 was received
+16:30:28.480 - The request to create 475.json.md5 was received
+16:30:28.481 - The request to create 476.json.md5 was received
+16:30:28.525 - The request to create 474.json.md5 was received
+16:30:28.557 - 479.json.md5 report request received
+16:30:28.570 - The request to create 47.json.md5 was received
+16:30:28.571 - The request to create 470.json.md5 was received
+16:30:28.572 - The request to create 471.json.md5 was received
+16:30:28.572 - The request to create 473.json.md5 was received
+16:30:28.573 - The request to create 472.json.md5 was received
+16:30:28.683 - The request to create 469.json.md5 was received
+16:30:28.699 - The request to create 468.json.md5 was received
+16:30:28.700 - The request to create 465.json.md5 was received
+16:30:28.701 - The request to create 467.json.md5 was received
+16:30:28.701 - The request to create 466.json.md5 was received
+16:30:28.841 - The request to create 464.json.md5 was received
+16:30:28.873 - The request to create 463.json.md5 was received
+16:30:28.874 - The request to create 462.json.md5 was received
+16:30:28.905 - The request to create 460.json.md5 was received
+16:30:28.906 - The request to create 461.json.md5 was received
+16:30:28.907 - The request to create 46.json.md5 was received
+16:30:29.072 - 463.json.md5 report request received
+16:30:29.086 - worker 2 killed !!!
+16:30:29.086 - The request to create 455.json.md5 was received
+16:30:29.087 - NOT SUCCESS worker 2 for .\TransactionFiles\455.json
+16:30:29.087 - The request to create 456.json.md5 was received
+16:30:29.088 - The request to create 457.json.md5 was received
+16:30:29.088 - The request to create 458.json.md5 was received
+16:30:29.088 - The request to create 459.json.md5 was received
+16:30:29.165 - The request to create 454.json.md5 was received
+16:30:29.165 - The request to create 453.json.md5 was received
+16:30:29.166 - The request to create 452.json.md5 was received
+16:30:29.181 - The request to create 451.json.md5 was received
+16:30:29.182 - The request to create 450.json.md5 was received
+16:30:29.262 - The request to create 45.json.md5 was received
+16:30:29.341 - The request to create 449.json.md5 was received
+16:30:29.341 - The request to create 448.json.md5 was received
+16:30:29.374 - The request to create 447.json.md5 was received
+16:30:29.376 - The request to create 446.json.md5 was received
+16:30:29.376 - The request to create 445.json.md5 was received
+16:30:29.376 - The request to create 444.json.md5 was received
+16:30:29.534 - The request to create 443.json.md5 was received
+16:30:29.534 - The request to create 442.json.md5 was received
+16:30:29.536 - 446.json.md5 report request received
+16:30:29.554 - The request to create 438.json.md5 was received
+16:30:29.555 - The request to create 439.json.md5 was received
+16:30:29.556 - The request to create 440.json.md5 was received
+16:30:29.557 - The request to create 441.json.md5 was received
+16:30:29.557 - The request to create 44.json.md5 was received
+16:30:29.640 - The request to create 436.json.md5 was received
+16:30:29.640 - The request to create 437.json.md5 was received
+16:30:29.641 - The request to create 435.json.md5 was received
+16:30:29.641 - The request to create 433.json.md5 was received
+16:30:29.642 - The request to create 434.json.md5 was received
+16:30:29.672 - The request to create 432.json.md5 was received
+16:30:29.673 - 435.json.md5 report request received
+16:30:29.690 - worker 2 killed !!!
+16:30:29.691 - 434.json.md5 report request received
+16:30:29.717 - The request to create 428.json.md5 was received
+16:30:29.719 - The request to create 429.json.md5 was received
+16:30:29.719 - The request to create 43.json.md5 was received
+16:30:29.720 - NOT SUCCESS worker 2 for .\TransactionFiles\43.json
+16:30:29.720 - The request to create 430.json.md5 was received
+16:30:29.720 - The request to create 431.json.md5 was received
+16:30:29.857 - The request to create 427.json.md5 was received
+16:30:29.859 - The request to create 425.json.md5 was received
+16:30:29.859 - The request to create 424.json.md5 was received
+16:30:29.860 - The request to create 423.json.md5 was received
+16:30:29.860 - The request to create 426.json.md5 was received
+16:30:29.888 - The request to create 422.json.md5 was received
+16:30:29.936 - The request to create 421.json.md5 was received
+16:30:29.938 - 426.json.md5 report request received
+16:30:29.950 - The request to create 417.json.md5 was received
+16:30:29.951 - The request to create 42.json.md5 was received
+16:30:29.951 - The request to create 418.json.md5 was received
+16:30:29.952 - The request to create 419.json.md5 was received
+16:30:29.952 - The request to create 420.json.md5 was received
+16:30:30.156 - The request to create 416.json.md5 was received
+16:30:30.205 - The request to create 414.json.md5 was received
+16:30:30.206 - The request to create 412.json.md5 was received
+16:30:30.206 - The request to create 415.json.md5 was received
+16:30:30.206 - The request to create 413.json.md5 was received
+16:30:30.207 - The request to create 411.json.md5 was received
+16:30:30.316 - The request to create 410.json.md5 was received
+16:30:30.316 - 412.json.md5 report request received
+16:30:30.331 - worker 2 killed !!!
+16:30:30.332 - 411.json.md5 report request received
+16:30:30.351 - The request to create 406.json.md5 was received
+16:30:30.352 - NOT SUCCESS worker 2 for .\TransactionFiles\406.json
+16:30:30.352 - The request to create 408.json.md5 was received
+16:30:30.353 - The request to create 407.json.md5 was received
+16:30:30.353 - The request to create 409.json.md5 was received
+16:30:30.354 - The request to create 41.json.md5 was received
+16:30:30.703 - The request to create 405.json.md5 was received
+16:30:30.703 - The request to create 404.json.md5 was received
+16:30:30.703 - 408.json.md5 report request received
+16:30:30.731 - worker 5 killed !!!
+16:30:30.732 - The request to create 40.json.md5 was received
+16:30:30.732 - The request to create 400.json.md5 was received
+16:30:30.733 - The request to create 402.json.md5 was received
+16:30:30.733 - The request to create 401.json.md5 was received
+16:30:30.735 - The request to create 403.json.md5 was received
+16:30:30.962 - The request to create 4.json.md5 was received
+16:30:30.995 - The request to create 399.json.md5 was received
+16:30:30.997 - NOT SUCCESS worker 5 for .\TransactionFiles\399.json
+16:30:30.997 - The request to create 398.json.md5 was received
+16:30:30.998 - The request to create 396.json.md5 was received
+16:30:30.998 - The request to create 397.json.md5 was received
+16:30:31.236 - 399.json.md5 report request received
+16:30:31.256 - The request to create 395.json.md5 was received
+16:30:31.257 - The request to create 391.json.md5 was received
+16:30:31.258 - The request to create 392.json.md5 was received
+16:30:31.258 - The request to create 393.json.md5 was received
+16:30:31.259 - The request to create 394.json.md5 was received
+16:30:31.352 - 395.json.md5 report request received
+16:30:31.367 - The request to create 39.json.md5 was received
+16:30:31.368 - The request to create 386.json.md5 was received
+16:30:31.368 - The request to create 389.json.md5 was received
+16:30:31.368 - The request to create 388.json.md5 was received
+16:30:31.369 - The request to create 390.json.md5 was received
+16:30:31.417 - 39.json.md5 report request received
+16:30:31.433 - worker 2 killed !!!
+16:30:31.434 - The request to create 379.json.md5 was received
+16:30:31.435 - The request to create 38.json.md5 was received
+16:30:31.435 - NOT SUCCESS worker 2 for .\TransactionFiles\379.json
+16:30:31.435 - The request to create 380.json.md5 was received
+16:30:31.436 - The request to create 381.json.md5 was received
+16:30:31.436 - The request to create 382.json.md5 was received
+16:30:31.624 - The request to create 377.json.md5 was received
+16:30:31.681 - The request to create 376.json.md5 was received
+16:30:31.682 - 381.json.md5 report request received
+16:30:31.726 - The request to create 371.json.md5 was received
+16:30:31.726 - The request to create 372.json.md5 was received
+16:30:31.727 - The request to create 374.json.md5 was received
+16:30:31.727 - The request to create 373.json.md5 was received
+16:30:31.728 - The request to create 375.json.md5 was received
+16:30:31.968 - The request to create 370.json.md5 was received
+16:30:32.036 - The request to create 37.json.md5 was received
+16:30:32.037 - The request to create 369.json.md5 was received
+16:30:32.037 - The request to create 368.json.md5 was received
+16:30:32.106 - The request to create 367.json.md5 was received
+16:30:32.168 - The request to create 366.json.md5 was received
+16:30:32.201 - The request to create 365.json.md5 was received
+16:30:32.201 - The request to create 364.json.md5 was received
+16:30:32.202 - The request to create 363.json.md5 was received
+16:30:32.202 - The request to create 362.json.md5 was received
+16:30:32.471 - The request to create 361.json.md5 was received
+16:30:32.504 - The request to create 360.json.md5 was received
+16:30:32.505 - The request to create 358.json.md5 was received
+16:30:32.506 - The request to create 359.json.md5 was received
+16:30:32.506 - The request to create 36.json.md5 was received
+16:30:32.626 - The request to create 357.json.md5 was received
+16:30:32.626 - The request to create 355.json.md5 was received
+16:30:32.627 - The request to create 356.json.md5 was received
+16:30:32.627 - The request to create 354.json.md5 was received
+16:30:32.628 - The request to create 353.json.md5 was received
+16:30:32.891 - The request to create 351.json.md5 was received
+16:30:32.892 - The request to create 352.json.md5 was received
+16:30:32.906 - The request to create 350.json.md5 was received
+16:30:32.907 - 354.json.md5 report request received
+16:30:32.918 - 350.json.md5 report request received
+16:30:32.935 - worker 3 killed !!!
+16:30:32.936 - 355.json.md5 report request received
+16:30:32.952 - worker 5 killed !!!
+16:30:32.953 - The request to create 346.json.md5 was received
+16:30:32.953 - The request to create 347.json.md5 was received
+16:30:32.954 - The request to create 348.json.md5 was received
+16:30:32.954 - The request to create 349.json.md5 was received
+16:30:32.954 - NOT SUCCESS worker 5 for .\TransactionFiles\349.json
+16:30:32.954 - The request to create 35.json.md5 was received
+16:30:32.955 - NOT SUCCESS worker 3 for .\TransactionFiles\349.json
+16:30:33.020 - The request to create 345.json.md5 was received
+16:30:33.066 - The request to create 344.json.md5 was received
+16:30:33.067 - The request to create 343.json.md5 was received
+16:30:33.114 - The request to create 341.json.md5 was received
+16:30:33.115 - The request to create 342.json.md5 was received
+16:30:33.129 - The request to create 340.json.md5 was received
+16:30:33.130 - 343.json.md5 report request received
+16:30:33.151 - 342.json.md5 report request received
+16:30:33.159 - 340.json.md5 report request received
+16:30:33.180 - The request to create 336.json.md5 was received
+16:30:33.180 - The request to create 337.json.md5 was received
+16:30:33.180 - The request to create 338.json.md5 was received
+16:30:33.181 - The request to create 339.json.md5 was received
+16:30:33.181 - The request to create 34.json.md5 was received
+16:30:33.492 - The request to create 335.json.md5 was received
+16:30:33.492 - The request to create 334.json.md5 was received
+16:30:33.524 - The request to create 332.json.md5 was received
+16:30:33.525 - 339.json.md5 report request received
+16:30:33.544 - worker 3 killed !!!
+16:30:33.545 - 332.json.md5 report request received
+16:30:33.556 - worker 4 killed !!!
+16:30:33.557 - The request to create 329.json.md5 was received
+16:30:33.558 - The request to create 33.json.md5 was received
+16:30:33.559 - NOT SUCCESS worker 3 for .\TransactionFiles\33.json
+16:30:33.559 - The request to create 330.json.md5 was received
+16:30:33.560 - The request to create 331.json.md5 was received
+16:30:33.560 - NOT SUCCESS worker 4 for .\TransactionFiles\331.json
+16:30:33.561 - The request to create 333.json.md5 was received
+16:30:33.572 - The request to create 328.json.md5 was received
+16:30:33.573 - 330.json.md5 report request received
+16:30:33.595 - worker 2 killed !!!
+16:30:33.596 - 333.json.md5 report request received
+16:30:33.599 - worker 1 killed !!!
+16:30:33.600 - 328.json.md5 report request received
+16:30:33.602 - The request to create 323.json.md5 was received
+16:30:33.603 - The request to create 324.json.md5 was received
+16:30:33.603 - NOT SUCCESS worker 1 for .\TransactionFiles\324.json
+16:30:33.604 - The request to create 325.json.md5 was received
+16:30:33.604 - NOT SUCCESS worker 2 for .\TransactionFiles\324.json
+16:30:33.604 - The request to create 326.json.md5 was received
+16:30:33.605 - The request to create 327.json.md5 was received
+16:30:33.605 - 323.json.md5 report request received
+16:30:33.620 - worker 5 killed !!!
+16:30:33.622 - 324.json.md5 report request received
+16:30:33.626 - 325.json.md5 report request received
+16:30:33.630 - The request to create 319.json.md5 was received
+16:30:33.631 - NOT SUCCESS worker 5 for .\TransactionFiles\319.json
+16:30:33.632 - The request to create 32.json.md5 was received
+16:30:33.632 - The request to create 320.json.md5 was received
+16:30:33.633 - The request to create 321.json.md5 was received
+16:30:33.635 - The request to create 322.json.md5 was received
+16:30:33.976 - 320.json.md5 report request received
+16:30:33.988 - 32.json.md5 report request received
+16:30:33.989 - worker 3 killed !!!
+16:30:33.989 - 321.json.md5 report request received
+16:30:33.991 - 319.json.md5 report request received
+16:30:33.992 - worker 3 killed !!!
+16:30:33.994 - 322.json.md5 report request received
+16:30:33.996 - The request to create 314.json.md5 was received
+16:30:33.996 - The request to create 315.json.md5 was received
+16:30:33.997 - NOT SUCCESS worker 3 for .\TransactionFiles\315.json
+16:30:33.997 - The request to create 316.json.md5 was received
+16:30:33.998 - The request to create 317.json.md5 was received
+16:30:33.999 - The request to create 318.json.md5 was received
+16:30:34.023 - 314.json.md5 report request received
+16:30:34.050 - 318.json.md5 report request received
+16:30:34.052 - worker 4 killed !!!
+16:30:34.053 - 316.json.md5 report request received
+16:30:34.054 - worker 2 killed !!!
+16:30:34.056 - The request to create 31.json.md5 was received
+16:30:34.057 - The request to create 312.json.md5 was received
+16:30:34.057 - The request to create 310.json.md5 was received
+16:30:34.058 - NOT SUCCESS worker 2 for .\TransactionFiles\310.json
+16:30:34.058 - The request to create 311.json.md5 was received
+16:30:34.059 - NOT SUCCESS worker 4 for .\TransactionFiles\310.json
+16:30:34.060 - 31.json.md5 report request received
+16:30:34.070 - 311.json.md5 report request received
+16:30:34.071 - worker 1 killed !!!
+16:30:34.072 - 312.json.md5 report request received
+16:30:34.086 - The request to create 306.json.md5 was received
+16:30:34.087 - NOT SUCCESS worker 1 for .\TransactionFiles\306.json
+16:30:34.087 - The request to create 307.json.md5 was received
+16:30:34.088 - The request to create 308.json.md5 was received
+16:30:34.089 - The request to create 309.json.md5 was received
+16:30:34.089 - The request to create 313.json.md5 was received
+16:30:34.217 - The request to create 305.json.md5 was received
+16:30:34.219 - The request to create 304.json.md5 was received
+16:30:34.219 - 309.json.md5 report request received
+16:30:34.234 - worker 5 killed !!!
+16:30:34.236 - 304.json.md5 report request received
+16:30:34.237 - worker 3 killed !!!
+16:30:34.237 - The request to create 30.json.md5 was received
+16:30:34.239 - The request to create 300.json.md5 was received
+16:30:34.239 - The request to create 301.json.md5 was received
+16:30:34.240 - The request to create 302.json.md5 was received
+16:30:34.241 - NOT SUCCESS worker 5 for .\TransactionFiles\302.json
+16:30:34.241 - The request to create 303.json.md5 was received
+16:30:34.242 - NOT SUCCESS worker 3 for .\TransactionFiles\302.json
+16:30:34.358 - The request to create 3.json.md5 was received
+16:30:34.358 - 300.json.md5 report request received
+16:30:34.371 - 3.json.md5 report request received
+16:30:34.373 - 301.json.md5 report request received
+16:30:34.374 - worker 1 killed !!!
+16:30:34.375 - The request to create 295.json.md5 was received
+16:30:34.375 - The request to create 297.json.md5 was received
+16:30:34.376 - The request to create 296.json.md5 was received
+16:30:34.376 - The request to create 298.json.md5 was received
+16:30:34.377 - The request to create 299.json.md5 was received
+16:30:34.377 - NOT SUCCESS worker 1 for .\TransactionFiles\299.json
+16:30:34.530 - The request to create 294.json.md5 was received
+16:30:34.530 - 298.json.md5 report request received
+16:30:34.547 - 294.json.md5 report request received
+16:30:34.550 - worker 2 killed !!!
+16:30:34.551 - 297.json.md5 report request received
+16:30:34.553 - The request to create 29.json.md5 was received
+16:30:34.554 - The request to create 291.json.md5 was received
+16:30:34.554 - The request to create 292.json.md5 was received
+16:30:34.555 - The request to create 290.json.md5 was received
+16:30:34.555 - The request to create 293.json.md5 was received
+16:30:34.557 - NOT SUCCESS worker 2 for .\TransactionFiles\293.json
+16:30:34.579 - The request to create 289.json.md5 was received
+16:30:34.580 - 291.json.md5 report request received
+16:30:34.604 - worker 3 killed !!!
+16:30:34.605 - 293.json.md5 report request received
+16:30:34.633 - 289.json.md5 report request received
+16:30:34.636 - The request to create 284.json.md5 was received
+16:30:34.636 - The request to create 285.json.md5 was received
+16:30:34.637 - The request to create 286.json.md5 was received
+16:30:34.637 - The request to create 288.json.md5 was received
+16:30:34.638 - The request to create 287.json.md5 was received
+16:30:34.638 - NOT SUCCESS worker 3 for .\TransactionFiles\288.json
+16:30:34.898 - The request to create 283.json.md5 was received
+16:30:34.898 - The request to create 282.json.md5 was received
+16:30:34.929 - The request to create 281.json.md5 was received
+16:30:34.930 - The request to create 28.json.md5 was received
+16:30:34.931 - The request to create 280.json.md5 was received
+16:30:35.172 - The request to create 279.json.md5 was received
+16:30:35.172 - The request to create 278.json.md5 was received
+16:30:35.172 - 280.json.md5 report request received
+16:30:35.199 - worker 3 killed !!!
+16:30:35.200 - The request to create 273.json.md5 was received
+16:30:35.201 - The request to create 274.json.md5 was received
+16:30:35.201 - The request to create 275.json.md5 was received
+16:30:35.201 - NOT SUCCESS worker 3 for .\TransactionFiles\275.json
+16:30:35.201 - The request to create 277.json.md5 was received
+16:30:35.202 - The request to create 276.json.md5 was received
+16:30:35.236 - The request to create 272.json.md5 was received
+16:30:35.251 - The request to create 271.json.md5 was received
+16:30:35.268 - The request to create 270.json.md5 was received
+16:30:35.269 - The request to create 27.json.md5 was received
+16:30:35.269 - The request to create 269.json.md5 was received
+16:30:35.270 - The request to create 268.json.md5 was received
+16:30:35.495 - The request to create 267.json.md5 was received
+16:30:35.496 - The request to create 266.json.md5 was received
+16:30:35.542 - The request to create 265.json.md5 was received
+16:30:35.543 - The request to create 263.json.md5 was received
+16:30:35.544 - The request to create 264.json.md5 was received
+16:30:35.544 - The request to create 262.json.md5 was received
+16:30:35.749 - The request to create 261.json.md5 was received
+16:30:35.749 - 266.json.md5 report request received
+16:30:35.761 - 262.json.md5 report request received
+16:30:35.787 - worker 5 killed !!!
+16:30:35.787 - The request to create 257.json.md5 was received
+16:30:35.788 - The request to create 259.json.md5 was received
+16:30:35.788 - The request to create 258.json.md5 was received
+16:30:35.788 - NOT SUCCESS worker 5 for .\TransactionFiles\258.json
+16:30:35.789 - The request to create 26.json.md5 was received
+16:30:35.789 - The request to create 260.json.md5 was received
+16:30:35.790 - 257.json.md5 report request received
+16:30:35.803 - worker 2 killed !!!
+16:30:35.804 - 258.json.md5 report request received
+16:30:35.815 - The request to create 252.json.md5 was received
+16:30:35.815 - NOT SUCCESS worker 2 for .\TransactionFiles\252.json
+16:30:35.816 - The request to create 253.json.md5 was received
+16:30:35.817 - The request to create 254.json.md5 was received
+16:30:35.817 - The request to create 255.json.md5 was received
+16:30:35.818 - The request to create 256.json.md5 was received
+16:30:35.987 - 252.json.md5 report request received
+16:30:36.001 - worker 3 killed !!!
+16:30:36.001 - 255.json.md5 report request received
+16:30:36.003 - worker 1 killed !!!
+16:30:36.003 - The request to create 248.json.md5 was received
+16:30:36.004 - NOT SUCCESS worker 3 for .\TransactionFiles\248.json
+16:30:36.004 - The request to create 249.json.md5 was received
+16:30:36.005 - NOT SUCCESS worker 1 for .\TransactionFiles\249.json
+16:30:36.005 - The request to create 25.json.md5 was received
+16:30:36.006 - The request to create 251.json.md5 was received
+16:30:36.006 - The request to create 250.json.md5 was received
+16:30:36.141 - The request to create 247.json.md5 was received
+16:30:36.157 - 25.json.md5 report request received
+16:30:36.165 - The request to create 243.json.md5 was received
+16:30:36.165 - The request to create 244.json.md5 was received
+16:30:36.166 - The request to create 242.json.md5 was received
+16:30:36.166 - The request to create 246.json.md5 was received
+16:30:36.167 - The request to create 245.json.md5 was received
+16:30:36.367 - 243.json.md5 report request received
+16:30:36.383 - worker 2 killed !!!
+16:30:36.384 - 245.json.md5 report request received
+16:30:36.410 - 246.json.md5 report request received
+16:30:36.412 - The request to create 238.json.md5 was received
+16:30:36.413 - NOT SUCCESS worker 2 for .\TransactionFiles\238.json
+16:30:36.413 - The request to create 239.json.md5 was received
+16:30:36.414 - The request to create 240.json.md5 was received
+16:30:36.414 - The request to create 24.json.md5 was received
+16:30:36.415 - The request to create 241.json.md5 was received
+16:30:36.479 - 239.json.md5 report request received
+16:30:36.502 - 240.json.md5 report request received
+16:30:36.503 - worker 1 killed !!!
+16:30:36.504 - The request to create 233.json.md5 was received
+16:30:36.505 - The request to create 234.json.md5 was received
+16:30:36.505 - The request to create 235.json.md5 was received
+16:30:36.506 - NOT SUCCESS worker 1 for .\TransactionFiles\234.json
+16:30:36.506 - The request to create 236.json.md5 was received
+16:30:36.508 - The request to create 237.json.md5 was received
+16:30:36.526 - 233.json.md5 report request received
+16:30:36.541 - worker 3 killed !!!
+16:30:36.542 - 237.json.md5 report request received
+16:30:36.576 - worker 5 killed !!!
+16:30:36.578 - 235.json.md5 report request received
+16:30:36.581 - The request to create 229.json.md5 was received
+16:30:36.582 - NOT SUCCESS worker 3 for .\TransactionFiles\229.json
+16:30:36.582 - The request to create 23.json.md5 was received
+16:30:36.584 - NOT SUCCESS worker 5 for .\TransactionFiles\23.json
+16:30:36.584 - The request to create 230.json.md5 was received
+16:30:36.584 - The request to create 231.json.md5 was received
+16:30:36.585 - The request to create 232.json.md5 was received
+16:30:36.811 - The request to create 228.json.md5 was received
+16:30:36.811 - The request to create 227.json.md5 was received
+16:30:36.843 - The request to create 225.json.md5 was received
+16:30:36.844 - The request to create 224.json.md5 was received
+16:30:37.019 - The request to create 226.json.md5 was received
+16:30:37.019 - The request to create 223.json.md5 was received
+16:30:37.162 - 227.json.md5 report request received
+16:30:37.177 - 226.json.md5 report request received
+16:30:37.197 - worker 5 killed !!!
+16:30:37.198 - 224.json.md5 report request received
+16:30:37.199 - The request to create 222.json.md5 was received
+16:30:37.199 - The request to create 219.json.md5 was received
+16:30:37.200 - The request to create 220.json.md5 was received
+16:30:37.201 - The request to create 22.json.md5 was received
+16:30:37.201 - The request to create 221.json.md5 was received
+16:30:37.202 - NOT SUCCESS worker 5 for .\TransactionFiles\221.json
+16:30:37.336 - The request to create 217.json.md5 was received
+16:30:37.336 - The request to create 216.json.md5 was received
+16:30:37.337 - The request to create 218.json.md5 was received
+16:30:37.368 - The request to create 215.json.md5 was received
+16:30:37.369 - The request to create 214.json.md5 was received
+16:30:37.370 - The request to create 213.json.md5 was received
+16:30:37.477 - 216.json.md5 report request received
+16:30:37.502 - worker 3 killed !!!
+16:30:37.504 - 214.json.md5 report request received
+16:30:37.523 - The request to create 21.json.md5 was received
+16:30:37.524 - NOT SUCCESS worker 3 for .\TransactionFiles\21.json
+16:30:37.524 - The request to create 209.json.md5 was received
+16:30:37.525 - The request to create 210.json.md5 was received
+16:30:37.525 - The request to create 211.json.md5 was received
+16:30:37.525 - The request to create 212.json.md5 was received
+16:30:37.589 - The request to create 208.json.md5 was received
+16:30:37.589 - The request to create 207.json.md5 was received
+16:30:37.605 - The request to create 206.json.md5 was received
+16:30:37.606 - The request to create 204.json.md5 was received
+16:30:37.606 - The request to create 205.json.md5 was received
+16:30:37.753 - 207.json.md5 report request received
+16:30:37.781 - worker 5 killed !!!
+16:30:37.782 - The request to create 20.json.md5 was received
+16:30:37.783 - NOT SUCCESS worker 5 for .\TransactionFiles\20.json
+16:30:37.783 - The request to create 202.json.md5 was received
+16:30:37.784 - The request to create 200.json.md5 was received
+16:30:37.784 - The request to create 201.json.md5 was received
+16:30:37.785 - The request to create 203.json.md5 was received
+16:30:38.031 - The request to create 199.json.md5 was received
+16:30:38.031 - 201.json.md5 report request received
+16:30:38.038 - 199.json.md5 report request received
+16:30:38.038 - worker 2 killed !!!
+16:30:38.051 - The request to create 195.json.md5 was received
+16:30:38.052 - The request to create 196.json.md5 was received
+16:30:38.052 - The request to create 197.json.md5 was received
+16:30:38.052 - The request to create 2.json.md5 was received
+16:30:38.053 - The request to create 198.json.md5 was received
+16:30:38.054 - NOT SUCCESS worker 2 for .\TransactionFiles\198.json
+16:30:38.124 - The request to create 194.json.md5 was received
+16:30:38.124 - 196.json.md5 report request received
+16:30:38.140 - worker 3 killed !!!
+16:30:38.140 - 198.json.md5 report request received
+16:30:38.141 - 194.json.md5 report request received
+16:30:38.142 - The request to create 19.json.md5 was received
+16:30:38.143 - The request to create 190.json.md5 was received
+16:30:38.143 - The request to create 191.json.md5 was received
+16:30:38.144 - The request to create 192.json.md5 was received
+16:30:38.145 - NOT SUCCESS worker 3 for .\TransactionFiles\192.json
+16:30:38.145 - The request to create 193.json.md5 was received
+16:30:38.171 - The request to create 189.json.md5 was received
+16:30:38.172 - The request to create 187.json.md5 was received
+16:30:38.172 - The request to create 188.json.md5 was received
+16:30:38.367 - The request to create 186.json.md5 was received
+16:30:38.369 - The request to create 185.json.md5 was received
+16:30:38.369 - The request to create 183.json.md5 was received
+16:30:38.370 - The request to create 182.json.md5 was received
+16:30:38.431 - The request to create 184.json.md5 was received
+16:30:38.432 - The request to create 181.json.md5 was received
+16:30:38.433 - The request to create 180.json.md5 was received
+16:30:38.433 - 183.json.md5 report request received
+16:30:38.477 - 184.json.md5 report request received
+16:30:38.479 - worker 3 killed !!!
+16:30:38.479 - The request to create 176.json.md5 was received
+16:30:38.480 - The request to create 177.json.md5 was received
+16:30:38.480 - The request to create 178.json.md5 was received
+16:30:38.480 - NOT SUCCESS worker 3 for .\TransactionFiles\178.json
+16:30:38.480 - The request to create 179.json.md5 was received
+16:30:38.481 - The request to create 18.json.md5 was received
+16:30:38.482 - The request to create 175.json.md5 was received
+16:30:38.494 - 177.json.md5 report request received
+16:30:38.517 - 18.json.md5 report request received
+16:30:38.534 - worker 5 killed !!!
+16:30:38.536 - 179.json.md5 report request received
+16:30:38.537 - The request to create 170.json.md5 was received
+16:30:38.538 - The request to create 171.json.md5 was received
+16:30:38.539 - The request to create 172.json.md5 was received
+16:30:38.540 - NOT SUCCESS worker 5 for .\TransactionFiles\172.json
+16:30:38.541 - The request to create 173.json.md5 was received
+16:30:38.542 - 170.json.md5 report request received
+16:30:38.567 - worker 2 killed !!!
+16:30:38.569 - 172.json.md5 report request received
+16:30:38.570 - worker 1 killed !!!
+16:30:38.572 - 173.json.md5 report request received
+16:30:38.574 - The request to create 167.json.md5 was received
+16:30:38.575 - The request to create 168.json.md5 was received
+16:30:38.575 - NOT SUCCESS worker 2 for .\TransactionFiles\168.json
+16:30:38.575 - The request to create 169.json.md5 was received
+16:30:38.576 - NOT SUCCESS worker 1 for .\TransactionFiles\168.json
+16:30:38.578 - The request to create 17.json.md5 was received
+16:30:38.578 - The request to create 174.json.md5 was received
+16:30:38.579 - The request to create 166.json.md5 was received
+16:30:38.770 - The request to create 165.json.md5 was received
+16:30:38.770 - The request to create 163.json.md5 was received
+16:30:38.772 - The request to create 162.json.md5 was received
+16:30:38.772 - 166.json.md5 report request received
+16:30:38.785 - worker 4 killed !!!
+16:30:38.786 - 162.json.md5 report request received
+16:30:38.797 - The request to create 159.json.md5 was received
+16:30:38.798 - The request to create 16.json.md5 was received
+16:30:38.799 - The request to create 160.json.md5 was received
+16:30:38.799 - NOT SUCCESS worker 4 for .\TransactionFiles\160.json
+16:30:38.800 - The request to create 161.json.md5 was received
+16:30:38.800 - The request to create 164.json.md5 was received
+16:30:38.818 - The request to create 158.json.md5 was received
+16:30:38.818 - 16.json.md5 report request received
+16:30:38.830 - 160.json.md5 report request received
+16:30:38.849 - 164.json.md5 report request received
+16:30:38.850 - worker 2 killed !!!
+16:30:38.851 - 158.json.md5 report request received
+16:30:38.852 - worker 1 killed !!!
+16:30:38.853 - The request to create 153.json.md5 was received
+16:30:38.854 - The request to create 154.json.md5 was received
+16:30:38.854 - The request to create 155.json.md5 was received
+16:30:38.855 - NOT SUCCESS worker 2 for .\TransactionFiles\155.json
+16:30:38.855 - The request to create 156.json.md5 was received
+16:30:38.856 - NOT SUCCESS worker 1 for .\TransactionFiles\155.json
+16:30:38.857 - 153.json.md5 report request received
+16:30:38.877 - worker 5 killed !!!
+16:30:38.879 - 154.json.md5 report request received
+16:30:38.881 - worker 3 killed !!!
+16:30:38.882 - The request to create 15.json.md5 was received
+16:30:38.883 - NOT SUCCESS worker 5 for .\TransactionFiles\15.json
+16:30:38.884 - The request to create 150.json.md5 was received
+16:30:38.884 - NOT SUCCESS worker 3 for .\TransactionFiles\15.json
+16:30:38.884 - The request to create 151.json.md5 was received
+16:30:38.885 - The request to create 152.json.md5 was received
+16:30:38.886 - The request to create 157.json.md5 was received
+16:30:39.184 - The request to create 149.json.md5 was received
+16:30:39.184 - The request to create 148.json.md5 was received
+16:30:39.186 - 157.json.md5 report request received
+16:30:39.194 - 148.json.md5 report request received
+16:30:39.203 - 149.json.md5 report request received
+16:30:39.205 - worker 4 killed !!!
+16:30:39.207 - The request to create 143.json.md5 was received
+16:30:39.207 - The request to create 144.json.md5 was received
+16:30:39.208 - The request to create 145.json.md5 was received
+16:30:39.208 - The request to create 147.json.md5 was received
+16:30:39.209 - NOT SUCCESS worker 4 for .\TransactionFiles\147.json
+16:30:39.209 - The request to create 146.json.md5 was received
+16:30:39.450 - The request to create 141.json.md5 was received
+16:30:39.450 - 144.json.md5 report request received
+16:30:39.486 - 141.json.md5 report request received
+16:30:39.488 - worker 5 killed !!!
+16:30:39.490 - 145.json.md5 report request received
+16:30:39.491 - 147.json.md5 report request received
+16:30:39.492 - worker 1 killed !!!
+16:30:39.493 - The request to create 135.json.md5 was received
+16:30:39.493 - The request to create 136.json.md5 was received
+16:30:39.494 - The request to create 14.json.md5 was received
+16:30:39.495 - The request to create 137.json.md5 was received
+16:30:39.495 - NOT SUCCESS worker 1 for .\TransactionFiles\14.json
+16:30:39.495 - The request to create 140.json.md5 was received
+16:30:39.496 - NOT SUCCESS worker 5 for .\TransactionFiles\14.json
+16:30:39.631 - The request to create 132.json.md5 was received
+16:30:39.631 - 135.json.md5 report request received
+16:30:39.648 - worker 3 killed !!!
+16:30:39.649 - 132.json.md5 report request received
+16:30:39.660 - 14.json.md5 report request received
+16:30:39.663 - 137.json.md5 report request received
+16:30:39.664 - worker 4 killed !!!
+16:30:39.666 - The request to create 128.json.md5 was received
+16:30:39.667 - The request to create 129.json.md5 was received
+16:30:39.667 - NOT SUCCESS worker 3 for .\TransactionFiles\129.json
+16:30:39.667 - The request to create 13.json.md5 was received
+16:30:39.668 - The request to create 130.json.md5 was received
+16:30:39.669 - NOT SUCCESS worker 4 for .\TransactionFiles\130.json
+16:30:39.669 - The request to create 131.json.md5 was received
+16:30:39.678 - The request to create 127.json.md5 was received
+16:30:40.006 - The request to create 126.json.md5 was received
+16:30:40.039 - The request to create 125.json.md5 was received
+16:30:40.040 - 127.json.md5 report request received
+16:30:40.063 - 126.json.md5 report request received
+16:30:40.064 - The request to create 120.json.md5 was received
+16:30:40.065 - The request to create 121.json.md5 was received
+16:30:40.065 - The request to create 122.json.md5 was received
+16:30:40.066 - The request to create 123.json.md5 was received
+16:30:40.067 - The request to create 124.json.md5 was received
+16:30:40.195 - 120.json.md5 report request received
+16:30:40.232 - worker 5 killed !!!
+16:30:40.233 - The request to create 116.json.md5 was received
+16:30:40.233 - The request to create 117.json.md5 was received
+16:30:40.233 - The request to create 118.json.md5 was received
+16:30:40.234 - NOT SUCCESS worker 5 for .\TransactionFiles\118.json
+16:30:40.234 - The request to create 119.json.md5 was received
+16:30:40.234 - The request to create 12.json.md5 was received
+16:30:40.320 - The request to create 115.json.md5 was received
+16:30:40.320 - The request to create 114.json.md5 was received
+16:30:40.398 - The request to create 113.json.md5 was received
+16:30:40.398 - 118.json.md5 report request received
+16:30:40.426 - 113.json.md5 report request received
+16:30:40.428 - worker 4 killed !!!
+16:30:40.429 - 114.json.md5 report request received
+16:30:40.429 - worker 1 killed !!!
+16:30:40.430 - The request to create 109.json.md5 was received
+16:30:40.431 - The request to create 11.json.md5 was received
+16:30:40.432 - The request to create 110.json.md5 was received
+16:30:40.432 - NOT SUCCESS worker 1 for .\TransactionFiles\110.json
+16:30:40.433 - The request to create 111.json.md5 was received
+16:30:40.434 - NOT SUCCESS worker 4 for .\TransactionFiles\111.json
+16:30:40.434 - The request to create 112.json.md5 was received
+16:30:40.435 - The request to create 108.json.md5 was received
+16:30:40.591 - The request to create 107.json.md5 was received
+16:30:40.591 - The request to create 105.json.md5 was received
+16:30:40.593 - The request to create 106.json.md5 was received
+16:30:40.607 - The request to create 104.json.md5 was received
+16:30:40.609 - 110.json.md5 report request received
+16:30:40.635 - 105.json.md5 report request received
+16:30:40.646 - worker 5 killed !!!
+16:30:40.647 - The request to create 103.json.md5 was received
+16:30:40.781 - 103.json.md5 report request received

@@ -1,13 +1,13 @@
 from socket import *
-import os
 import threading
-from threading import Lock
 from queue import Queue
-from time import sleep
 import multiprocessing
-from worker import md5_worker
 import re
-from worker import style
+import os
+import logging
+
+from worker import md5_worker, style
+
 
 IP = "127.0.0.1"
 PORT = 9090
@@ -15,143 +15,184 @@ ADDR = (IP, PORT)
 SIZE = 1024
 FORMAT = 'utf-8'
 
+# Number of workers and mistakes they received
+WORKER_NUMBER = 5
+mistakes = [0 for _ in range(WORKER_NUMBER)]
 
-def worker(i):
-    globals()["worker%s" % i] = multiprocessing.Process(
-        target=md5_worker, args=(i, ))
-    # z = psutil.Process(globals()["worker%s" % i].pid)
 
-    globals()["worker%s" % i].start()
+def worker_live_preserver(i,):
+    """
+    A function to keep the worker alive
+    """
     while True:
-        if not globals()["worker%s" % i].is_alive():
-            # print("!!!!!!!")
-            
-            # globals()["worker%s" % i].terminate()
-            globals()["worker%s" % i] = multiprocessing.Process(
-                target=md5_worker, args=(i, ))
-            globals()["worker%s" % i].start()
-            # break
+        globals()["worker%s" % i] = multiprocessing.Process(
+            target=md5_worker, args=(i,))
+        globals()["worker%s" % i].start()
+        print(style.YELLOW + f"worker {i} started" + style.RESET)
+
+        # Waits for the processing to finish
+        globals()["worker%s" % i].join()
 
 
-def client_handling(conn, files_address):
+def commander_handling(conn, convert_queue):
     connected = True
-    warnings = [0 for i in range(5)]
+
+    # Repeat this loop until the connection between server and commander
+    # is established and connected is True
     while connected:
-        file_name = conn.recv(SIZE).decode(FORMAT).split(" ")
-        print(file_name)
-        if file_name[1] == "1":
-            # worker_lock.acquire()
-            files_address.put(file_name[0])
-            # print(list(files_address.queue))
+        # Receive a message from the commander
+        message = conn.recv(SIZE).decode(FORMAT)
+
+        # Extraction of file address and request type
+        file_address, request_type = message.split(" ")
+
+        # Get pure file name for logging
+        file_name = re.findall(r'[0-9]*.json', file_address).pop()
+
+        """
+        If the value of the request_type variable was 1,
+        it means that the commander wants the md5 file to be created
+        by the server (worker) so that the commander can
+        check the correctness of its content later.
+        
+        But if the value of the request_type variable was 0,
+        it means that the commander has recognized
+        the incorrectness of the md5 content of that file and tells
+        the server to fine the worker who calculated its md5 content.
+        """
+        if request_type == "1":
+            logger.info(f"The request to create {file_name}.md5 was received")
+            print(f"The request to create {file_name}.md5 was received")
+
+            # Add the file address to the queue of file server addresses
+            convert_queue.put(file_address)
+
+            # Send the "Received" response message to the commander
             conn.send("Recieved".encode(FORMAT))
-            
-        # elif file_name[1] == "3":
-        #     conn.send("OK".encode(FORMAT))
-        else:
-            mistake_lock.acquire()
-            f = open("./worker_log.txt", "r")
-            text = str(f.read())
-            # print(text)
-            worker = re.findall(r'%s was converted to %s.md5 by worker \d' % (
-                file_name[0], file_name[0]), text).pop()
-            f.close()
-            warnings[int(worker[-1])-1] += 1
-            message = f"{worker[-1]} {warnings[int(worker[-1])-1]}"
-            
-            # print("ZZZ")
-            # globals()["psutil%s" % int(worker[-1])].suspend()
-            # print("ZZZ")
-            print(warnings)
-            kill_lock.acquire()
-            if warnings[int(worker[-1])-1] == 2:   
-                if globals()["worker%s" % int(worker[-1])].is_alive():
-                    globals()["worker%s" % int(worker[-1])].kill()
-                    print("worker%s killed!!!" % int(worker[-1]))
-                warnings[int(worker[-1])-1] = 0
-            # else:
-                # print("ZZZ")
-                # globals()["psutil%s" % int(worker[-1])].resume()
-            kill_lock.release()
+
+        elif request_type == "0":
+            logger.info(f"{file_name}.md5 report request received")
+            print(f"{file_name}.md5 report request received")
+
+            # Search amoung the worker_log_X files
+            # and find the worker who calculated this md5 content
+            # and put the ID of the worker who made the mistake
+            # in the workerId variable
+            for workerId in range(1, WORKER_NUMBER+1):
+                if not os.path.isfile("./worker_log_%s.log" % workerId):
+                    continue
+                f = open("./worker_log_%s.log" % workerId, "r")
+                text = str(f.read())
+                file_name = re.findall(r'[0-9]*.json', file_address).pop()
+                if re.findall(r'%s was converted to %s.md5' % (file_name, file_name), text):
+                    f.close()
+                    break
+                f.close()
+
+            # Add one to the mistakes of this worker
+            mistakes[workerId-1] += 1
+            message = f"{workerId} {mistakes[workerId-1]}"
+
+            # If this worker makes its second mistake,
+            # kill him and reduce the amount of his mistakes to zero
+            if mistakes[workerId-1] == 2:
+                if globals()["worker%s" % workerId].is_alive():
+                    globals()["worker%s" % workerId].kill()
+                    logger.critical("worker %s killed !!!" % workerId)
+                    print("worker %s killed !!!" % workerId)
+                mistakes[workerId-1] = 0
+
+            # Send the response message containing the ID and number of mistakes
+            # of the worker who made this mistake to the commander
             conn.send(message.encode(FORMAT))
-            mistake_lock.release()
-    conn.close()
 
 
-def worker_handling(conn, id, files_address):
+def worker_handling(conn, id, convert_queue):
     connected = True
+
+    # Repeat this loop until the connection between server and worker
+    # is established and connected is True
     while connected:
-        # while not globals()["worker%s" % id].is_alive():
-        #     pass
-        files_name = ""
-        # test_lock.acquire()
-        for _ in range(1):
-            files_name += files_address.get(block=True) + " "
-        # test_lock.release()
-        files_name = files_name.strip()
+
+        # The address of the files we want to give to the worker to create the md5 file
+        file_addresses = ""
+        for _ in range(5):
+            # Getting an address from the server's address queue
+            file_addresses += convert_queue.get(block=True) + " "
+            if convert_queue.empty():
+                break
+        file_addresses = file_addresses.strip()
+
         try:
-            
-            send_address_lock.acquire()
-            conn.send(files_name.encode(FORMAT))
+            # Send the addresses to the worker
+            conn.send(file_addresses.encode(FORMAT))
+
+            # Wait for the worker's response
             conn.recv(SIZE).decode(FORMAT)
-            # for _ in files_name.split(" "):
-            #     mmm = conn.recv(SIZE).decode(FORMAT)
-            #     print(mmm.split(" ")[1])
-            send_address_lock.release()
 
-        except:
-            
+        # If the connection is terminated and the worker process is killed
+        except ConnectionResetError:
+            # Set connected to False, so we exit the loop
             connected = False
-            send_address_lock.release()
-            print(f"NOT SUCCESS worker {id} for {files_name}")
-            print(files_name.split(" "))
-            for item in files_name.split(" "):
-                files_address.put(item)
-                # sleep(0)
+
+            logger.error(f"NOT SUCCESS worker {id} for {file_addresses}")
+            print(f"NOT SUCCESS worker {id} for {file_addresses}")
+
+            # We will once again add the address of the files
+            # that were sent when the worker was killed to the queue
+            for item in file_addresses.split(" "):
+                convert_queue.put(item)
 
 
-def get_files_name(basepath):
-    files_name = ""
-    # List all files in a directory using os.listdir
-    for entry in os.listdir(basepath):
-        if os.path.isfile(os.path.join(basepath, entry)):
-            files_name += f"\n{entry}"
-
-    return files_name
-
-
-def start():
-    # Serevr Socket INITIATE
+def server():
+    # Create a server socket
     s = socket(AF_INET, SOCK_STREAM)
     s.bind(ADDR)
+
+    logger.info("[STARTING] server is listening ....")
     print("[STARTING] server is listening ....")
+
+    # Make socket ready for accepting connection
     s.listen()
-    files_address = Queue()
+
+    # A queue to add the address of the files whose md5 file should be created
+    convert_queue = Queue()
+
     while True:
+        # Wait for the client to connect to the server
         conn, addr = s.accept()
-        name = conn.recv(SIZE).decode(FORMAT)
-        if name[:6] == "worker":
-            print(style.YELLOW + f"worker {name[-1]} started" + style.RESET)
+
+        # Wait for the client to introduce itself
+        introduction_msg = conn.recv(SIZE).decode(FORMAT)
+
+        # If the client was a worker, create a thread to handle it
+        if re.match(r"worker [0-9]*", introduction_msg):
+            worker_id = introduction_msg.split(" ")[1]
             thread = threading.Thread(
-                target=worker_handling, args=(conn, name[-1], files_address))
-        if name == "client":
-            print(name)
+                target=worker_handling, args=(conn, worker_id, convert_queue))
+
+        # If the client was a commander, create a thread to handle it
+        if introduction_msg == "commander":
             thread = threading.Thread(
-                target=client_handling, args=(conn, files_address))
+                target=commander_handling, args=(conn, convert_queue))
+
+        # Start the thread
         thread.start()
-        print("[ACTIVE CONNECTIONS]", threading.activeCount() - 1)
 
 
 if __name__ == "__main__":
 
-    files_address_lock = Lock()
-    send_address_lock = Lock()
-    mistake_lock = Lock()
-    kill_lock = Lock() 
-    workers = [threading.Thread(target=worker, args=(i, )).start()
-               for i in range(1, 6)]
-    
-    job_queue = Queue()
-    test_lock = Lock()
-    worker_lock = Lock()
-    sem = Lock()
-    start()
+    # Logging configuration
+    logging.basicConfig(filename="server.log", format='%(asctime)s.%(msecs)03d - %(message)s',
+                        datefmt='%H:%M:%S', filemode='w', encoding='utf-8')
+
+    # Create a logger
+    logger = logging.getLogger()
+    logger.setLevel(logging.DEBUG)
+
+    # Creating threads to control worker processes
+    [threading.Thread(target=worker_live_preserver, args=(i,)).start()
+     for i in range(1, WORKER_NUMBER+1)]
+
+    # Start the server
+    server()

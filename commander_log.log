@@ -1,0 +1,270 @@
+16:30:13.018 - Worker 3 made a mistake in creating the content of .\TransactionFiles\1.json.md5 and it is its first mistake
+16:30:13.019 - Worker 1 made a mistake in creating the content of .\TransactionFiles\102.json.md5 and it is its first mistake
+16:30:13.027 - Worker 4 made a mistake in creating the content of .\TransactionFiles\100.json.md5 and it is its first mistake
+16:30:13.149 - Worker 4 made a mistake in creating the content of .\TransactionFiles\139.json.md5 and it is its second mistake, so its killed
+16:30:13.150 - Worker 3 made a mistake in creating the content of .\TransactionFiles\142.json.md5 and it is its second mistake, so its killed
+16:30:13.460 - Worker 5 made a mistake in creating the content of .\TransactionFiles\589.json.md5 and it is its first mistake
+16:30:13.462 - Worker 1 made a mistake in creating the content of .\TransactionFiles\592.json.md5 and it is its second mistake, so its killed
+16:30:13.464 - Worker 2 made a mistake in creating the content of .\TransactionFiles\593.json.md5 and it is its first mistake
+16:30:13.640 - Worker 4 made a mistake in creating the content of .\TransactionFiles\626.json.md5 and it is its first mistake
+16:30:13.760 - Worker 3 made a mistake in creating the content of .\TransactionFiles\855.json.md5 and it is its first mistake
+16:30:13.772 - Worker 4 made a mistake in creating the content of .\TransactionFiles\847.json.md5 and it is its second mistake, so its killed
+16:30:13.812 - Worker 3 made a mistake in creating the content of .\TransactionFiles\subfolder\995.json.md5 and it is its second mistake, so its killed
+16:30:13.813 - Worker 3 made a mistake in creating the content of .\TransactionFiles\subfolder\999.json.md5 and it is its first mistake
+16:30:14.428 - Worker 3 made a mistake in creating the content of .\TransactionFiles\subfolder\979.json.md5 and it is its second mistake, so its killed
+16:30:14.435 - Worker 4 made a mistake in creating the content of .\TransactionFiles\subfolder\975.json.md5 and it is its first mistake
+16:30:14.770 - Worker 4 made a mistake in creating the content of .\TransactionFiles\subfolder\966.json.md5 and it is its second mistake, so its killed
+16:30:14.771 - Worker 1 made a mistake in creating the content of .\TransactionFiles\subfolder\962.json.md5 and it is its first mistake
+16:30:14.905 - Worker 2 made a mistake in creating the content of .\TransactionFiles\subfolder\958.json.md5 and it is its second mistake, so its killed
+16:30:14.918 - Worker 5 made a mistake in creating the content of .\TransactionFiles\subfolder\956.json.md5 and it is its second mistake, so its killed
+16:30:14.968 - Worker 1 made a mistake in creating the content of .\TransactionFiles\subfolder\951.json.md5 and it is its second mistake, so its killed
+16:30:15.314 - Worker 4 made a mistake in creating the content of .\TransactionFiles\subfolder\944.json.md5 and it is its first mistake
+16:30:15.315 - Worker 3 made a mistake in creating the content of .\TransactionFiles\subfolder\943.json.md5 and it is its first mistake
+16:30:15.317 - Worker 4 made a mistake in creating the content of .\TransactionFiles\subfolder\950.json.md5 and it is its second mistake, so its killed
+16:30:15.440 - Worker 5 made a mistake in creating the content of .\TransactionFiles\subfolder\936.json.md5 and it is its first mistake
+16:30:15.444 - Worker 3 made a mistake in creating the content of .\TransactionFiles\subfolder\938.json.md5 and it is its second mistake, so its killed
+16:30:15.445 - Worker 1 made a mistake in creating the content of .\TransactionFiles\subfolder\937.json.md5 and it is its first mistake
+16:30:15.484 - Worker 5 made a mistake in creating the content of .\TransactionFiles\subfolder\935.json.md5 and it is its second mistake, so its killed
+16:30:15.486 - Worker 1 made a mistake in creating the content of .\TransactionFiles\subfolder\934.json.md5 and it is its second mistake, so its killed
+16:30:15.488 - Worker 1 made a mistake in creating the content of .\TransactionFiles\subfolder\931.json.md5 and it is its first mistake
+16:30:15.806 - Worker 4 made a mistake in creating the content of .\TransactionFiles\subfolder\927.json.md5 and it is its first mistake
+16:30:16.028 - Worker 5 made a mistake in creating the content of .\TransactionFiles\subfolder\923.json.md5 and it is its first mistake
+16:30:16.029 - Worker 1 made a mistake in creating the content of .\TransactionFiles\subfolder\922.json.md5 and it is its second mistake, so its killed
+16:30:16.033 - Worker 3 made a mistake in creating the content of .\TransactionFiles\subfolder\921.json.md5 and it is its first mistake
+16:30:16.065 - Worker 5 made a mistake in creating the content of .\TransactionFiles\subfolder\915.json.md5 and it is its second mistake, so its killed
+16:30:16.074 - Worker 3 made a mistake in creating the content of .\TransactionFiles\subfolder\918.json.md5 and it is its second mistake, so its killed
+16:30:16.155 - Worker 2 made a mistake in creating the content of .\TransactionFiles\subfolder\908.json.md5 and it is its first mistake
+16:30:16.175 - Worker 4 made a mistake in creating the content of .\TransactionFiles\subfolder\906.json.md5 and it is its second mistake, so its killed
+16:30:16.499 - Worker 1 made a mistake in creating the content of .\TransactionFiles\subfolder\905.json.md5 and it is its first mistake
+16:30:16.501 - Worker 1 made a mistake in creating the content of .\TransactionFiles\subfolder\902.json.md5 and it is its second mistake, so its killed
+16:30:16.502 - Worker 1 made a mistake in creating the content of .\TransactionFiles\94.json.md5 and it is its first mistake
+16:30:16.728 - Worker 3 made a mistake in creating the content of .\TransactionFiles\900.json.md5 and it is its first mistake
+16:30:16.740 - Worker 5 made a mistake in creating the content of .\TransactionFiles\95.json.md5 and it is its first mistake
+16:30:16.742 - Worker 5 made a mistake in creating the content of .\TransactionFiles\91.json.md5 and it is its second mistake, so its killed
+16:30:16.835 - Worker 3 made a mistake in creating the content of .\TransactionFiles\897.json.md5 and it is its second mistake, so its killed
+16:30:16.837 - Worker 3 made a mistake in creating the content of .\TransactionFiles\90.json.md5 and it is its first mistake
+16:30:16.887 - Worker 4 made a mistake in creating the content of .\TransactionFiles\893.json.md5 and it is its first mistake
+16:30:16.891 - Worker 1 made a mistake in creating the content of .\TransactionFiles\894.json.md5 and it is its second mistake, so its killed
+16:30:17.114 - Worker 4 made a mistake in creating the content of .\TransactionFiles\890.json.md5 and it is its second mistake, so its killed
+16:30:17.265 - Worker 3 made a mistake in creating the content of .\TransactionFiles\883.json.md5 and it is its second mistake, so its killed
+16:30:17.279 - Worker 5 made a mistake in creating the content of .\TransactionFiles\885.json.md5 and it is its first mistake
+16:30:17.316 - Worker 1 made a mistake in creating the content of .\TransactionFiles\879.json.md5 and it is its first mistake
+16:30:17.340 - Worker 4 made a mistake in creating the content of .\TransactionFiles\880.json.md5 and it is its first mistake
+16:30:17.352 - Worker 5 made a mistake in creating the content of .\TransactionFiles\875.json.md5 and it is its second mistake, so its killed
+16:30:17.572 - Worker 1 made a mistake in creating the content of .\TransactionFiles\873.json.md5 and it is its second mistake, so its killed
+16:30:17.600 - Worker 4 made a mistake in creating the content of .\TransactionFiles\869.json.md5 and it is its second mistake, so its killed
+16:30:17.602 - Worker 3 made a mistake in creating the content of .\TransactionFiles\867.json.md5 and it is its first mistake
+16:30:17.605 - Worker 1 made a mistake in creating the content of .\TransactionFiles\868.json.md5 and it is its first mistake
+16:30:17.822 - Worker 3 made a mistake in creating the content of .\TransactionFiles\861.json.md5 and it is its second mistake, so its killed
+16:30:17.824 - Worker 3 made a mistake in creating the content of .\TransactionFiles\860.json.md5 and it is its first mistake
+16:30:17.834 - Worker 5 made a mistake in creating the content of .\TransactionFiles\865.json.md5 and it is its first mistake
+16:30:17.848 - Worker 2 made a mistake in creating the content of .\TransactionFiles\854.json.md5 and it is its second mistake, so its killed
+16:30:17.867 - Worker 4 made a mistake in creating the content of .\TransactionFiles\857.json.md5 and it is its first mistake
+16:30:17.878 - Worker 5 made a mistake in creating the content of .\TransactionFiles\858.json.md5 and it is its second mistake, so its killed
+16:30:17.881 - Worker 1 made a mistake in creating the content of .\TransactionFiles\856.json.md5 and it is its second mistake, so its killed
+16:30:18.182 - Worker 4 made a mistake in creating the content of .\TransactionFiles\850.json.md5 and it is its second mistake, so its killed
+16:30:18.183 - Worker 4 made a mistake in creating the content of .\TransactionFiles\852.json.md5 and it is its first mistake
+16:30:18.185 - Worker 4 made a mistake in creating the content of .\TransactionFiles\85.json.md5 and it is its second mistake, so its killed
+16:30:18.322 - Worker 2 made a mistake in creating the content of .\TransactionFiles\849.json.md5 and it is its first mistake
+16:30:18.333 - Worker 3 made a mistake in creating the content of .\TransactionFiles\844.json.md5 and it is its second mistake, so its killed
+16:30:18.368 - Worker 1 made a mistake in creating the content of .\TransactionFiles\839.json.md5 and it is its first mistake
+16:30:18.402 - Worker 5 made a mistake in creating the content of .\TransactionFiles\84.json.md5 and it is its first mistake
+16:30:18.405 - Worker 2 made a mistake in creating the content of .\TransactionFiles\840.json.md5 and it is its second mistake, so its killed
+16:30:18.691 - Worker 1 made a mistake in creating the content of .\TransactionFiles\830.json.md5 and it is its second mistake, so its killed
+16:30:18.708 - Worker 5 made a mistake in creating the content of .\TransactionFiles\829.json.md5 and it is its second mistake, so its killed
+16:30:18.711 - Worker 4 made a mistake in creating the content of .\TransactionFiles\83.json.md5 and it is its first mistake
+16:30:18.713 - Worker 5 made a mistake in creating the content of .\TransactionFiles\838.json.md5 and it is its first mistake
+16:30:18.806 - Worker 4 made a mistake in creating the content of .\TransactionFiles\827.json.md5 and it is its second mistake, so its killed
+16:30:18.808 - Worker 2 made a mistake in creating the content of .\TransactionFiles\825.json.md5 and it is its first mistake
+16:30:18.856 - Worker 2 made a mistake in creating the content of .\TransactionFiles\82.json.md5 and it is its second mistake, so its killed
+16:30:18.859 - Worker 2 made a mistake in creating the content of .\TransactionFiles\821.json.md5 and it is its first mistake
+16:30:19.034 - Worker 1 made a mistake in creating the content of .\TransactionFiles\813.json.md5 and it is its first mistake
+16:30:19.035 - Worker 1 made a mistake in creating the content of .\TransactionFiles\810.json.md5 and it is its second mistake, so its killed
+16:30:19.051 - Worker 5 made a mistake in creating the content of .\TransactionFiles\811.json.md5 and it is its second mistake, so its killed
+16:30:19.054 - Worker 1 made a mistake in creating the content of .\TransactionFiles\815.json.md5 and it is its first mistake
+16:30:19.088 - Worker 4 made a mistake in creating the content of .\TransactionFiles\806.json.md5 and it is its first mistake
+16:30:19.092 - Worker 2 made a mistake in creating the content of .\TransactionFiles\807.json.md5 and it is its second mistake, so its killed
+16:30:19.336 - Worker 4 made a mistake in creating the content of .\TransactionFiles\802.json.md5 and it is its second mistake, so its killed
+16:30:19.968 - Worker 2 made a mistake in creating the content of .\TransactionFiles\790.json.md5 and it is its first mistake
+16:30:19.981 - Worker 4 made a mistake in creating the content of .\TransactionFiles\789.json.md5 and it is its first mistake
+16:30:20.007 - Worker 2 made a mistake in creating the content of .\TransactionFiles\782.json.md5 and it is its second mistake, so its killed
+16:30:20.010 - Worker 1 made a mistake in creating the content of .\TransactionFiles\786.json.md5 and it is its second mistake, so its killed
+16:30:20.033 - Worker 4 made a mistake in creating the content of .\TransactionFiles\784.json.md5 and it is its second mistake, so its killed
+16:30:20.305 - Worker 5 made a mistake in creating the content of .\TransactionFiles\777.json.md5 and it is its first mistake
+16:30:20.306 - Worker 1 made a mistake in creating the content of .\TransactionFiles\774.json.md5 and it is its first mistake
+16:30:20.468 - Worker 4 made a mistake in creating the content of .\TransactionFiles\77.json.md5 and it is its first mistake
+16:30:20.470 - Worker 4 made a mistake in creating the content of .\TransactionFiles\769.json.md5 and it is its second mistake, so its killed
+16:30:21.047 - Worker 4 made a mistake in creating the content of .\TransactionFiles\759.json.md5 and it is its first mistake
+16:30:21.292 - Worker 4 made a mistake in creating the content of .\TransactionFiles\755.json.md5 and it is its second mistake, so its killed
+16:30:21.294 - Worker 1 made a mistake in creating the content of .\TransactionFiles\751.json.md5 and it is its second mistake, so its killed
+16:30:21.427 - Worker 2 made a mistake in creating the content of .\TransactionFiles\748.json.md5 and it is its first mistake
+16:30:21.662 - Worker 4 made a mistake in creating the content of .\TransactionFiles\739.json.md5 and it is its first mistake
+16:30:21.712 - Worker 4 made a mistake in creating the content of .\TransactionFiles\730.json.md5 and it is its second mistake, so its killed
+16:30:21.834 - Worker 3 made a mistake in creating the content of .\TransactionFiles\725.json.md5 and it is its first mistake
+16:30:22.029 - Worker 4 made a mistake in creating the content of .\TransactionFiles\720.json.md5 and it is its first mistake
+16:30:22.030 - Worker 1 made a mistake in creating the content of .\TransactionFiles\715.json.md5 and it is its first mistake
+16:30:22.370 - Worker 2 made a mistake in creating the content of .\TransactionFiles\707.json.md5 and it is its second mistake, so its killed
+16:30:22.389 - Worker 4 made a mistake in creating the content of .\TransactionFiles\703.json.md5 and it is its second mistake, so its killed
+16:30:22.627 - Worker 2 made a mistake in creating the content of .\TransactionFiles\694.json.md5 and it is its first mistake
+16:30:22.647 - Worker 4 made a mistake in creating the content of .\TransactionFiles\695.json.md5 and it is its first mistake
+16:30:22.806 - Worker 2 made a mistake in creating the content of .\TransactionFiles\686.json.md5 and it is its second mistake, so its killed
+16:30:22.809 - Worker 1 made a mistake in creating the content of .\TransactionFiles\689.json.md5 and it is its second mistake, so its killed
+16:30:22.861 - Worker 4 made a mistake in creating the content of .\TransactionFiles\682.json.md5 and it is its second mistake, so its killed
+16:30:22.864 - Worker 4 made a mistake in creating the content of .\TransactionFiles\684.json.md5 and it is its first mistake
+16:30:23.396 - Worker 4 made a mistake in creating the content of .\TransactionFiles\668.json.md5 and it is its second mistake, so its killed
+16:30:23.398 - Worker 2 made a mistake in creating the content of .\TransactionFiles\663.json.md5 and it is its first mistake
+16:30:23.533 - Worker 1 made a mistake in creating the content of .\TransactionFiles\657.json.md5 and it is its first mistake
+16:30:23.539 - Worker 2 made a mistake in creating the content of .\TransactionFiles\658.json.md5 and it is its second mistake, so its killed
+16:30:23.728 - Worker 1 made a mistake in creating the content of .\TransactionFiles\655.json.md5 and it is its second mistake, so its killed
+16:30:23.912 - Worker 4 made a mistake in creating the content of .\TransactionFiles\645.json.md5 and it is its first mistake
+16:30:23.974 - Worker 2 made a mistake in creating the content of .\TransactionFiles\636.json.md5 and it is its first mistake
+16:30:24.133 - Worker 2 made a mistake in creating the content of .\TransactionFiles\632.json.md5 and it is its second mistake, so its killed
+16:30:24.352 - Worker 4 made a mistake in creating the content of .\TransactionFiles\628.json.md5 and it is its second mistake, so its killed
+16:30:24.353 - Worker 1 made a mistake in creating the content of .\TransactionFiles\629.json.md5 and it is its first mistake
+16:30:24.363 - Worker 5 made a mistake in creating the content of .\TransactionFiles\625.json.md5 and it is its second mistake, so its killed
+16:30:24.436 - Worker 1 made a mistake in creating the content of .\TransactionFiles\622.json.md5 and it is its second mistake, so its killed
+16:30:24.688 - Worker 3 made a mistake in creating the content of .\TransactionFiles\61.json.md5 and it is its second mistake, so its killed
+16:30:24.707 - Worker 5 made a mistake in creating the content of .\TransactionFiles\607.json.md5 and it is its first mistake
+16:30:24.965 - Worker 4 made a mistake in creating the content of .\TransactionFiles\603.json.md5 and it is its first mistake
+16:30:24.973 - Worker 5 made a mistake in creating the content of .\TransactionFiles\605.json.md5 and it is its second mistake, so its killed
+16:30:25.145 - Worker 4 made a mistake in creating the content of .\TransactionFiles\6.json.md5 and it is its second mistake, so its killed
+16:30:25.147 - Worker 4 made a mistake in creating the content of .\TransactionFiles\600.json.md5 and it is its first mistake
+16:30:25.185 - Worker 2 made a mistake in creating the content of .\TransactionFiles\598.json.md5 and it is its first mistake
+16:30:25.186 - Worker 1 made a mistake in creating the content of .\TransactionFiles\595.json.md5 and it is its first mistake
+16:30:25.399 - Worker 5 made a mistake in creating the content of .\TransactionFiles\590.json.md5 and it is its first mistake
+16:30:25.403 - Worker 5 made a mistake in creating the content of .\TransactionFiles\583.json.md5 and it is its second mistake, so its killed
+16:30:25.476 - Worker 1 made a mistake in creating the content of .\TransactionFiles\582.json.md5 and it is its second mistake, so its killed
+16:30:25.510 - Worker 4 made a mistake in creating the content of .\TransactionFiles\58.json.md5 and it is its second mistake, so its killed
+16:30:25.598 - Worker 2 made a mistake in creating the content of .\TransactionFiles\574.json.md5 and it is its second mistake, so its killed
+16:30:25.600 - Worker 2 made a mistake in creating the content of .\TransactionFiles\576.json.md5 and it is its first mistake
+16:30:25.637 - Worker 3 made a mistake in creating the content of .\TransactionFiles\568.json.md5 and it is its first mistake
+16:30:25.914 - Worker 4 made a mistake in creating the content of .\TransactionFiles\56.json.md5 and it is its first mistake
+16:30:25.916 - Worker 3 made a mistake in creating the content of .\TransactionFiles\560.json.md5 and it is its second mistake, so its killed
+16:30:25.978 - Worker 5 made a mistake in creating the content of .\TransactionFiles\553.json.md5 and it is its first mistake
+16:30:25.981 - Worker 2 made a mistake in creating the content of .\TransactionFiles\554.json.md5 and it is its second mistake, so its killed
+16:30:25.983 - Worker 5 made a mistake in creating the content of .\TransactionFiles\557.json.md5 and it is its second mistake, so its killed
+16:30:26.486 - Worker 1 made a mistake in creating the content of .\TransactionFiles\542.json.md5 and it is its first mistake
+16:30:26.517 - Worker 5 made a mistake in creating the content of .\TransactionFiles\540.json.md5 and it is its first mistake
+16:30:26.519 - Worker 2 made a mistake in creating the content of .\TransactionFiles\54.json.md5 and it is its first mistake
+16:30:26.793 - Worker 5 made a mistake in creating the content of .\TransactionFiles\537.json.md5 and it is its second mistake, so its killed
+16:30:27.507 - Worker 2 made a mistake in creating the content of .\TransactionFiles\522.json.md5 and it is its second mistake, so its killed
+16:30:27.807 - Worker 5 made a mistake in creating the content of .\TransactionFiles\51.json.md5 and it is its first mistake
+16:30:27.809 - Worker 2 made a mistake in creating the content of .\TransactionFiles\507.json.md5 and it is its first mistake
+16:30:27.877 - Worker 5 made a mistake in creating the content of .\TransactionFiles\505.json.md5 and it is its second mistake, so its killed
+16:30:27.879 - Worker 2 made a mistake in creating the content of .\TransactionFiles\506.json.md5 and it is its second mistake, so its killed
+16:30:27.881 - Worker 1 made a mistake in creating the content of .\TransactionFiles\501.json.md5 and it is its second mistake, so its killed
+16:30:28.063 - Worker 4 made a mistake in creating the content of .\TransactionFiles\496.json.md5 and it is its second mistake, so its killed
+16:30:28.363 - Worker 1 made a mistake in creating the content of .\TransactionFiles\49.json.md5 and it is its first mistake
+16:30:28.365 - Worker 1 made a mistake in creating the content of .\TransactionFiles\487.json.md5 and it is its second mistake, so its killed
+16:30:28.570 - Worker 2 made a mistake in creating the content of .\TransactionFiles\479.json.md5 and it is its first mistake
+16:30:29.086 - Worker 2 made a mistake in creating the content of .\TransactionFiles\463.json.md5 and it is its second mistake, so its killed
+16:30:29.554 - Worker 2 made a mistake in creating the content of .\TransactionFiles\446.json.md5 and it is its first mistake
+16:30:29.691 - Worker 2 made a mistake in creating the content of .\TransactionFiles\435.json.md5 and it is its second mistake, so its killed
+16:30:29.717 - Worker 5 made a mistake in creating the content of .\TransactionFiles\434.json.md5 and it is its first mistake
+16:30:29.950 - Worker 2 made a mistake in creating the content of .\TransactionFiles\426.json.md5 and it is its first mistake
+16:30:30.332 - Worker 2 made a mistake in creating the content of .\TransactionFiles\412.json.md5 and it is its second mistake, so its killed
+16:30:30.351 - Worker 4 made a mistake in creating the content of .\TransactionFiles\411.json.md5 and it is its first mistake
+16:30:30.731 - Worker 5 made a mistake in creating the content of .\TransactionFiles\408.json.md5 and it is its second mistake, so its killed
+16:30:31.256 - Worker 3 made a mistake in creating the content of .\TransactionFiles\399.json.md5 and it is its first mistake
+16:30:31.367 - Worker 2 made a mistake in creating the content of .\TransactionFiles\395.json.md5 and it is its first mistake
+16:30:31.433 - Worker 2 made a mistake in creating the content of .\TransactionFiles\39.json.md5 and it is its second mistake, so its killed
+16:30:31.725 - Worker 5 made a mistake in creating the content of .\TransactionFiles\381.json.md5 and it is its first mistake
+16:30:32.917 - Worker 1 made a mistake in creating the content of .\TransactionFiles\354.json.md5 and it is its first mistake
+16:30:32.935 - Worker 3 made a mistake in creating the content of .\TransactionFiles\350.json.md5 and it is its second mistake, so its killed
+16:30:32.952 - Worker 5 made a mistake in creating the content of .\TransactionFiles\355.json.md5 and it is its second mistake, so its killed
+16:30:33.150 - Worker 2 made a mistake in creating the content of .\TransactionFiles\343.json.md5 and it is its first mistake
+16:30:33.159 - Worker 3 made a mistake in creating the content of .\TransactionFiles\342.json.md5 and it is its first mistake
+16:30:33.179 - Worker 5 made a mistake in creating the content of .\TransactionFiles\340.json.md5 and it is its first mistake
+16:30:33.545 - Worker 3 made a mistake in creating the content of .\TransactionFiles\339.json.md5 and it is its second mistake, so its killed
+16:30:33.557 - Worker 4 made a mistake in creating the content of .\TransactionFiles\332.json.md5 and it is its second mistake, so its killed
+16:30:33.596 - Worker 2 made a mistake in creating the content of .\TransactionFiles\330.json.md5 and it is its second mistake, so its killed
+16:30:33.600 - Worker 1 made a mistake in creating the content of .\TransactionFiles\333.json.md5 and it is its second mistake, so its killed
+16:30:33.601 - Worker 2 made a mistake in creating the content of .\TransactionFiles\328.json.md5 and it is its first mistake
+16:30:33.621 - Worker 5 made a mistake in creating the content of .\TransactionFiles\323.json.md5 and it is its second mistake, so its killed
+16:30:33.625 - Worker 5 made a mistake in creating the content of .\TransactionFiles\324.json.md5 and it is its first mistake
+16:30:33.629 - Worker 5 made a mistake in creating the content of .\TransactionFiles\325.json.md5 and it is its second mistake, so its killed
+16:30:33.988 - Worker 3 made a mistake in creating the content of .\TransactionFiles\320.json.md5 and it is its first mistake
+16:30:33.989 - Worker 3 made a mistake in creating the content of .\TransactionFiles\32.json.md5 and it is its second mistake, so its killed
+16:30:33.991 - Worker 3 made a mistake in creating the content of .\TransactionFiles\321.json.md5 and it is its first mistake
+16:30:33.993 - Worker 3 made a mistake in creating the content of .\TransactionFiles\319.json.md5 and it is its second mistake, so its killed
+16:30:33.995 - Worker 3 made a mistake in creating the content of .\TransactionFiles\322.json.md5 and it is its first mistake
+16:30:34.050 - Worker 4 made a mistake in creating the content of .\TransactionFiles\314.json.md5 and it is its first mistake
+16:30:34.052 - Worker 4 made a mistake in creating the content of .\TransactionFiles\318.json.md5 and it is its second mistake, so its killed
+16:30:34.055 - Worker 2 made a mistake in creating the content of .\TransactionFiles\316.json.md5 and it is its second mistake, so its killed
+16:30:34.070 - Worker 1 made a mistake in creating the content of .\TransactionFiles\31.json.md5 and it is its first mistake
+16:30:34.071 - Worker 1 made a mistake in creating the content of .\TransactionFiles\311.json.md5 and it is its second mistake, so its killed
+16:30:34.086 - Worker 5 made a mistake in creating the content of .\TransactionFiles\312.json.md5 and it is its first mistake
+16:30:34.234 - Worker 5 made a mistake in creating the content of .\TransactionFiles\309.json.md5 and it is its second mistake, so its killed
+16:30:34.237 - Worker 3 made a mistake in creating the content of .\TransactionFiles\304.json.md5 and it is its second mistake, so its killed
+16:30:34.371 - Worker 2 made a mistake in creating the content of .\TransactionFiles\300.json.md5 and it is its first mistake
+16:30:34.372 - Worker 1 made a mistake in creating the content of .\TransactionFiles\3.json.md5 and it is its first mistake
+16:30:34.374 - Worker 1 made a mistake in creating the content of .\TransactionFiles\301.json.md5 and it is its second mistake, so its killed
+16:30:34.547 - Worker 3 made a mistake in creating the content of .\TransactionFiles\298.json.md5 and it is its first mistake
+16:30:34.551 - Worker 2 made a mistake in creating the content of .\TransactionFiles\294.json.md5 and it is its second mistake, so its killed
+16:30:34.553 - Worker 2 made a mistake in creating the content of .\TransactionFiles\297.json.md5 and it is its first mistake
+16:30:34.605 - Worker 3 made a mistake in creating the content of .\TransactionFiles\291.json.md5 and it is its second mistake, so its killed
+16:30:34.632 - Worker 5 made a mistake in creating the content of .\TransactionFiles\293.json.md5 and it is its first mistake
+16:30:34.635 - Worker 3 made a mistake in creating the content of .\TransactionFiles\289.json.md5 and it is its first mistake
+16:30:35.200 - Worker 3 made a mistake in creating the content of .\TransactionFiles\280.json.md5 and it is its second mistake, so its killed
+16:30:35.761 - Worker 1 made a mistake in creating the content of .\TransactionFiles\266.json.md5 and it is its first mistake
+16:30:35.787 - Worker 5 made a mistake in creating the content of .\TransactionFiles\262.json.md5 and it is its second mistake, so its killed
+16:30:35.804 - Worker 2 made a mistake in creating the content of .\TransactionFiles\257.json.md5 and it is its second mistake, so its killed
+16:30:35.814 - Worker 3 made a mistake in creating the content of .\TransactionFiles\258.json.md5 and it is its first mistake
+16:30:36.001 - Worker 3 made a mistake in creating the content of .\TransactionFiles\252.json.md5 and it is its second mistake, so its killed
+16:30:36.003 - Worker 1 made a mistake in creating the content of .\TransactionFiles\255.json.md5 and it is its second mistake, so its killed
+16:30:36.165 - Worker 2 made a mistake in creating the content of .\TransactionFiles\25.json.md5 and it is its first mistake
+16:30:36.384 - Worker 2 made a mistake in creating the content of .\TransactionFiles\243.json.md5 and it is its second mistake, so its killed
+16:30:36.410 - Worker 5 made a mistake in creating the content of .\TransactionFiles\245.json.md5 and it is its first mistake
+16:30:36.412 - Worker 1 made a mistake in creating the content of .\TransactionFiles\246.json.md5 and it is its first mistake
+16:30:36.501 - Worker 3 made a mistake in creating the content of .\TransactionFiles\239.json.md5 and it is its first mistake
+16:30:36.504 - Worker 1 made a mistake in creating the content of .\TransactionFiles\240.json.md5 and it is its second mistake, so its killed
+16:30:36.542 - Worker 3 made a mistake in creating the content of .\TransactionFiles\233.json.md5 and it is its second mistake, so its killed
+16:30:36.578 - Worker 5 made a mistake in creating the content of .\TransactionFiles\237.json.md5 and it is its second mistake, so its killed
+16:30:36.580 - Worker 5 made a mistake in creating the content of .\TransactionFiles\235.json.md5 and it is its first mistake
+16:30:37.177 - Worker 2 made a mistake in creating the content of .\TransactionFiles\227.json.md5 and it is its first mistake
+16:30:37.197 - Worker 5 made a mistake in creating the content of .\TransactionFiles\226.json.md5 and it is its second mistake, so its killed
+16:30:37.199 - Worker 3 made a mistake in creating the content of .\TransactionFiles\224.json.md5 and it is its first mistake
+16:30:37.504 - Worker 3 made a mistake in creating the content of .\TransactionFiles\216.json.md5 and it is its second mistake, so its killed
+16:30:37.523 - Worker 5 made a mistake in creating the content of .\TransactionFiles\214.json.md5 and it is its first mistake
+16:30:37.782 - Worker 5 made a mistake in creating the content of .\TransactionFiles\207.json.md5 and it is its second mistake, so its killed
+16:30:38.038 - Worker 3 made a mistake in creating the content of .\TransactionFiles\201.json.md5 and it is its first mistake
+16:30:38.051 - Worker 2 made a mistake in creating the content of .\TransactionFiles\199.json.md5 and it is its second mistake, so its killed
+16:30:38.140 - Worker 3 made a mistake in creating the content of .\TransactionFiles\196.json.md5 and it is its second mistake, so its killed
+16:30:38.141 - Worker 1 made a mistake in creating the content of .\TransactionFiles\198.json.md5 and it is its first mistake
+16:30:38.142 - Worker 3 made a mistake in creating the content of .\TransactionFiles\194.json.md5 and it is its first mistake
+16:30:38.477 - Worker 5 made a mistake in creating the content of .\TransactionFiles\183.json.md5 and it is its first mistake
+16:30:38.479 - Worker 3 made a mistake in creating the content of .\TransactionFiles\184.json.md5 and it is its second mistake, so its killed
+16:30:38.517 - Worker 2 made a mistake in creating the content of .\TransactionFiles\177.json.md5 and it is its first mistake
+16:30:38.535 - Worker 5 made a mistake in creating the content of .\TransactionFiles\18.json.md5 and it is its second mistake, so its killed
+16:30:38.537 - Worker 4 made a mistake in creating the content of .\TransactionFiles\179.json.md5 and it is its first mistake
+16:30:38.568 - Worker 2 made a mistake in creating the content of .\TransactionFiles\170.json.md5 and it is its second mistake, so its killed
+16:30:38.571 - Worker 1 made a mistake in creating the content of .\TransactionFiles\172.json.md5 and it is its second mistake, so its killed
+16:30:38.574 - Worker 2 made a mistake in creating the content of .\TransactionFiles\173.json.md5 and it is its first mistake
+16:30:38.785 - Worker 4 made a mistake in creating the content of .\TransactionFiles\166.json.md5 and it is its second mistake, so its killed
+16:30:38.797 - Worker 5 made a mistake in creating the content of .\TransactionFiles\162.json.md5 and it is its first mistake
+16:30:38.830 - Worker 1 made a mistake in creating the content of .\TransactionFiles\16.json.md5 and it is its first mistake
+16:30:38.848 - Worker 3 made a mistake in creating the content of .\TransactionFiles\160.json.md5 and it is its first mistake
+16:30:38.851 - Worker 2 made a mistake in creating the content of .\TransactionFiles\164.json.md5 and it is its second mistake, so its killed
+16:30:38.853 - Worker 1 made a mistake in creating the content of .\TransactionFiles\158.json.md5 and it is its second mistake, so its killed
+16:30:38.878 - Worker 5 made a mistake in creating the content of .\TransactionFiles\153.json.md5 and it is its second mistake, so its killed
+16:30:38.881 - Worker 3 made a mistake in creating the content of .\TransactionFiles\154.json.md5 and it is its second mistake, so its killed
+16:30:39.193 - Worker 4 made a mistake in creating the content of .\TransactionFiles\157.json.md5 and it is its first mistake
+16:30:39.203 - Worker 1 made a mistake in creating the content of .\TransactionFiles\148.json.md5 and it is its first mistake
+16:30:39.206 - Worker 4 made a mistake in creating the content of .\TransactionFiles\149.json.md5 and it is its second mistake, so its killed
+16:30:39.486 - Worker 5 made a mistake in creating the content of .\TransactionFiles\144.json.md5 and it is its first mistake
+16:30:39.489 - Worker 5 made a mistake in creating the content of .\TransactionFiles\141.json.md5 and it is its second mistake, so its killed
+16:30:39.491 - Worker 3 made a mistake in creating the content of .\TransactionFiles\145.json.md5 and it is its first mistake
+16:30:39.493 - Worker 1 made a mistake in creating the content of .\TransactionFiles\147.json.md5 and it is its second mistake, so its killed
+16:30:39.649 - Worker 3 made a mistake in creating the content of .\TransactionFiles\135.json.md5 and it is its second mistake, so its killed
+16:30:39.660 - Worker 4 made a mistake in creating the content of .\TransactionFiles\132.json.md5 and it is its first mistake
+16:30:39.663 - Worker 3 made a mistake in creating the content of .\TransactionFiles\14.json.md5 and it is its first mistake
+16:30:39.666 - Worker 4 made a mistake in creating the content of .\TransactionFiles\137.json.md5 and it is its second mistake, so its killed
+16:30:40.062 - Worker 5 made a mistake in creating the content of .\TransactionFiles\127.json.md5 and it is its first mistake
+16:30:40.064 - Worker 1 made a mistake in creating the content of .\TransactionFiles\126.json.md5 and it is its first mistake
+16:30:40.233 - Worker 5 made a mistake in creating the content of .\TransactionFiles\120.json.md5 and it is its second mistake, so its killed
+16:30:40.426 - Worker 4 made a mistake in creating the content of .\TransactionFiles\118.json.md5 and it is its first mistake
+16:30:40.428 - Worker 4 made a mistake in creating the content of .\TransactionFiles\113.json.md5 and it is its second mistake, so its killed
+16:30:40.430 - Worker 1 made a mistake in creating the content of .\TransactionFiles\114.json.md5 and it is its second mistake, so its killed
+16:30:40.634 - Worker 5 made a mistake in creating the content of .\TransactionFiles\110.json.md5 and it is its first mistake
+16:30:40.647 - Worker 5 made a mistake in creating the content of .\TransactionFiles\105.json.md5 and it is its second mistake, so its killed
+16:30:40.786 - Worker 4 made a mistake in creating the content of .\TransactionFiles\103.json.md5 and it is its first mistake
