@@ -8,13 +8,12 @@ PS D:......\OP-project\> .\run.bat
 ```
 ## commander:
 Then open another powershell window and run the following command
-‍‍‍‍‍
- ``` PS D:......\OP-project\> py.exe .\commander.py ```
-
-
+```
+PS D:......\OP-project\> py.exe .\commander.py
+```
 
 # Project description
-## Step 1
+## Step 1:
 The contents of some files of Ghokho servers (Ghorob Khokho) are apparently changed unintentionally.
 We want to design a system to validate the files and confirm that the files have not been changed unintentionally.
 
@@ -38,7 +37,7 @@ and saves a file with the address of the same file but with the suffix "md5." Fo
 
 ![Screenshot 2023-02-01 170856 (2)](https://user-images.githubusercontent.com/88796613/216058908-5cae15a1-4df0-493b-b13e-206d96366131.png)
 
-## Step 2
+## Step 2:
 
 In this step, you expand the commander program in the first step.
 
@@ -61,7 +60,7 @@ to the desired value (null or string or number) or randomly from every 3 files p
 ![Screenshot 2023-02-01 171101 (1)](https://user-images.githubusercontent.com/88796613/216059108-c90c5037-106e-47dc-a738-687fe9b77cb9.png)
 
 
-## Extra
+## Extra:
 
 In this section of Bad Disks in Gokhu, we want to identify the malicious workers.
 
@@ -74,3 +73,5 @@ If a worker receives more than 2 warnings, he must be stopped immediately.
 - Stopping the worker should be immediate, that is, if he was preparing a file, he should not be allowed to end the process.
 - It is obvious that the testing process as well as the printing of the results should be done automatically by the student
 take
+
+
