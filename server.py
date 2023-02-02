@@ -29,7 +29,7 @@ def worker_live_preserver(i,):
             target=md5_worker, args=(i,))
         globals()["worker%s" % i].start()
         print(style.YELLOW + f"worker {i} started" + style.RESET)
-
+        logger.error(f"worker {i} started")
         # Waits for the processing to finish
         globals()["worker%s" % i].join()
 
