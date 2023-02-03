@@ -3,7 +3,7 @@
 > This is an OS project and it is for Windows so you can only run it on Windows
 ## server:
 Be sure to install Python on your system
-To run it Open the powershell in the location where the OS-project folder is located and navigate to the following folder with the following command:
+To run it Open the powershell in the location where the OS-project folder is located and run the following command:
 ```
 PS D:......\OP-project\> .\run.bat
 ```
