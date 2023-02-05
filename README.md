@@ -74,5 +74,3 @@ If a worker receives more than 2 warnings, he must be stopped immediately.
 - Stopping the worker should be immediate, that is, if he was preparing a file, he should not be allowed to end the process.
 - It is obvious that the testing process as well as the printing of the results should be done automatically by the student
 take
-
-
